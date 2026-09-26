@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap');
+
+:root {
+  --color-bg-deep: #160306;
+  --color-bg-card: rgba(38, 7, 13, 0.85);
+  --color-bg-card-hover: rgba(56, 11, 19, 0.95);
+  --color-burgundy-900: #240409;
+  --color-burgundy-800: #380710;
+  --color-burgundy-700: #520B17;
+  --color-burgundy-600: #6B1120;
+  --color-burgundy-500: #88192B;
+  
+  --color-gold-300: #FFF0BA;
+  --color-gold-400: #F3DC84;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #B88E28;
+  --color-gold-700: #8C6713;
+  
+  --color-austria-red: #ED2939;
+  --color-austria-white: #FFFFFF;
+  
+  --color-text-main: #FBF8F5;
+  --color-text-muted: #D9C3C7;
+  --color-text-gold: #F7E19A;
+  
+  --font-serif: 'Cinzel', 'Playfair Display', Georgia, serif;
+  --font-playfair: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  
+  --gold-gradient: linear-gradient(135deg, #FFF3C4 0%, #E6C25B 40%, #B88E28 100%);
+  --burgundy-gradient: linear-gradient(180deg, #1C0307 0%, #380710 50%, #160306 100%);
+  --austria-ribbon: linear-gradient(90deg, #ED2939 0%, #ED2939 33%, #FFFFFF 33%, #FFFFFF 66%, #ED2939 66%, #ED2939 100%);
+  
+  --shadow-gold: 0 10px 30px rgba(212, 175, 55, 0.15);
+  --shadow-burgundy: 0 15px 35px rgba(10, 1, 3, 0.7);
+  --border-gold: 1px solid rgba(212, 175, 55, 0.25);
+  --border-gold-glow: 1px solid rgba(212, 175, 55, 0.55);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-bg-deep);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  overflow-x: hidden;
+  position: relative;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(136, 25, 43, 0.35) 0%, transparent 60%),
+    radial-gradient(circle at 10% 30%, rgba(82, 11, 23, 0.25) 0%, transparent 45%),
+    radial-gradient(circle at 90% 70%, rgba(212, 175, 55, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 50% 100%, rgba(56, 7, 16, 0.4) 0%, transparent 50%);
+  background-attachment: fixed;
+}
+
+/* Subtle gold dust ambient effect */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+  z-index: 999;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+/* Gold Typography Utility */
+.gold-text {
+  background: var(--gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.gold-glow {
+  text-shadow: 0 0 20px rgba(243, 220, 132, 0.35);
+}
+
+.gold-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  color: var(--color-gold-400);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 999px;
+  backdrop-filter: blur(8px);
+}
+
+.section-container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 56px;
+  position: relative;
+}
+
+.section-title {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  margin-top: 14px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.9rem;
+  }
+}
+
+.section-subtitle {
+  font-size: 1.05rem;
+  color: var(--color-text-muted);
+  max-width: 680px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.section-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 18px 0;
+}
+
+.section-divider .line {
+  width: 70px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.6), transparent);
+}
+
+.section-divider .diamond {
+  width: 8px;
+  height: 8px;
+  background: var(--color-gold-500);
+  transform: rotate(45deg);
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.6);
+}
+
+/* Glassmorphism Card Style */
+.card-glass {
+  background: var(--color-bg-card);
+  border: var(--border-gold);
+  border-radius: 16px;
+  padding: 32px;
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow-burgundy);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease, box-shadow 0.35s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-glass:hover {
+  transform: translateY(-5px);
+  border-color: rgba(212, 175, 55, 0.55);
+  box-shadow: 0 20px 45px rgba(20, 2, 5, 0.8), 0 0 25px rgba(212, 175, 55, 0.15);
+}
+
+.card-glass::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.6), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-glass:hover::after {
+  opacity: 1;
+}
+
+/* Buttons */
+.btn-gold {
+  background: var(--gold-gradient);
+  color: #1a0508;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  padding: 14px 28px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.3);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid rgba(255, 240, 186, 0.6);
+}
+
+.btn-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(212, 175, 55, 0.45);
+  filter: brightness(1.08);
+}
+
+.btn-outline-gold {
+  background: rgba(32, 5, 10, 0.4);
+  color: var(--color-gold-400);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  padding: 13px 26px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+
+.btn-outline-gold:hover {
+  background: rgba(212, 175, 55, 0.15);
+  border-color: rgba(212, 175, 55, 0.8);
+  color: #FFFFFF;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #140205;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #520B17;
+  border-radius: 4px;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7A1624;
+}
