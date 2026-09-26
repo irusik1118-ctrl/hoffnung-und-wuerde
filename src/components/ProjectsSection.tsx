@@ -168,6 +168,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ lang }) => {
                     src={project.image}
                     alt={lang === 'ua' ? project.titleUa : project.titleDe}
                     fill
+                    sizes="(max-width: 768px) 100vw, 400px"
                     style={{ objectFit: 'cover' }}
                   />
                   <div style={{

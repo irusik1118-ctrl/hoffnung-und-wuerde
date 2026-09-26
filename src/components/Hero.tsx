@@ -201,9 +201,10 @@ export const Hero: React.FC<HeroProps> = ({ lang, onDonateClick, onOpenLogoMeani
               src="/images/hero-main.jpg"
               alt="Wohltätigkeitsstiftung Hoffnung und Würde - Michael Kosik, Wien"
               fill
+              sizes="(max-width: 1240px) 100vw, 1240px"
               style={{ objectFit: 'cover' }}
               priority
-              quality={100}
+              quality={95}
             />
 
             {/* Subtle Zoom Hint in bottom corner */}

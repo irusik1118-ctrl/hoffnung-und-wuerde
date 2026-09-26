@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://hoffnung-und-wuerde.at'),
   title: "Wohltätigkeitsstiftung «Hoffnung und Würde» | Wien · Österreich",
   description: "Österreichische gemeinnützige Stiftung für Menschen in Not, Kinder, Jugendliche und Senioren. Gegründet von Michael Kosik. ZVR 1984068166, Wien.",
   keywords: [
