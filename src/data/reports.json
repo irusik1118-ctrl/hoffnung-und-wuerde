@@ -1,0 +1,815 @@
+[
+  {
+    "id": "report-1",
+    "reportNumber": 1,
+    "yearLabelUa": "Річний звіт діяльності",
+    "yearLabelDe": "Jahresbericht",
+    "badgeUa": "Офіційний звіт № 1",
+    "badgeDe": "Offizieller Tätigkeitsbericht № 1",
+    "titleUa": "Звіт про перший рік діяльності благодійної організації «Надія та Гідність»",
+    "titleDe": "Tätigkeitsbericht über das erste Jahr der Hilfsorganisation «Hoffnung und Würde»",
+    "subtitleUa": "Рік становлення, добрих справ, єдності та віри в майбутнє в Австрії",
+    "subtitleDe": "Ein Jahr des Aufbaus, guter Taten, der Einheit und des Glaubens an die Zukunft in Österreich",
+    "locationUa": "Відень, Австрія",
+    "locationDe": "Wien, Österreich",
+    "coverImage": "/images/reports/report-1-team.jpg",
+    "summaryUa": "Підсумки першого року роботи: дитячі концерти у Відні, колектив «Соняшник», підтримка української культури та об’єднання однодумців.",
+    "summaryDe": "Bilanz des ersten Arbeitsjahres: Kinderkonzerte in Wien, Ensemble «Sonjashnyk», Förderung der ukrainischen Kultur und gelebte Solidarität.",
+    "introParagraphsUa": [
+      "Ось і промайнув наш перший рік. Рік, сповнений надій, переживань, нових знайомств, відповідальних рішень, непростих завдань і, найголовніше, — добрих справ.",
+      "Для нашої благодійної організації «Надія та Гідність» цей рік став початком великого шляху в Австрії. Ми робили перші кроки, шукали можливості для реалізації наших задумів, знайомилися з людьми, об’єднували однодумців і вчилися перетворювати ідеї на реальні справи.",
+      "Ми добре розуміли, що попереду буде багато роботи, труднощів і викликів. Але вірили в те, що добро, щирість і наполегливість здатні об’єднувати людей, долати кордони та відкривати нові можливості."
+    ],
+    "introParagraphsDe": [
+      "Unser erstes Jahr ist wie im Flug vergangen. Ein Jahr voller Hoffnung, tiefer Emotionen, neuer Bekanntschaften, verantwortungsvoller Entscheidungen, herausfordernder Aufgaben und vor allem — guter Taten.",
+      "Für unsere Wohltätigkeitsorganisation «Hoffnung und Würde» markierte dieses Jahr den Beginn eines großen Weges in Österreich. Wir machten unsere ersten Schritte, suchten nach Möglichkeiten zur Verwirklichung unserer Vorhaben, lernten engagierte Menschen kennen, vereinten Gleichgesinnte und lernten, Ideen in greifbare Taten zu verwandeln.",
+      "Wir waren uns vollkommen bewusst, dass vor uns viel Arbeit, Hindernisse und Herausforderungen liegen würden. Doch wir glaubten fest daran, dass das Gute, Aufrichtigkeit und Beharrlichkeit Menschen verbinden, Grenzen überwinden und neue Chancen eröffnen können."
+    ],
+    "sections": [
+      {
+        "id": "r1-steps",
+        "headingUa": "Наші перші кроки — через дитячі серця",
+        "headingDe": "Unsere ersten Schritte — durch die Herzen der Kinder",
+        "icon": "Heart",
+        "paragraphsUa": [
+          "Першими кроками нашої діяльності стали дитячі концерти за участю дітей з України, насамперед вихованців колективів внутрішньо переміщених осіб та учнів музичних шкіл України.",
+          "Ми свідомо розпочали свою діяльність саме з дітей, адже діти — це основа нашого суспільства, наше майбутнє, наша надія. Вони особливо потребують уваги, підтримки, можливості розвиватися, творити та відчувати, що їхній талант потрібний і цінний.",
+          "Саме дитячими голосами, музикою, щирими емоціями та українською культурою ми відкрили двері у світ нашої діяльності. Важливою частиною цього початку стала концертна програма Али Горбунової та її колективу «Соняшник», яка допомогла нам зробити перші кроки до реалізації наших цілей.",
+          "Ці виступи стали набагато більшими, ніж просто концертні заходи. Вони перетворилися на справжні зустрічі українських сердець, на можливість відчути тепло рідної культури далеко від дому, поділитися переживаннями, радістю та вірою в майбутнє.",
+          "Дитячі виступи були надзвичайно вдалими, теплими та емоційними. Присутні щиро раділи таланту юних артистів, захоплювалися їхньою майстерністю та відчували особливу атмосферу єдності.",
+          "А привітання дітей з України стали одними з найтепліших і найзворушливіших моментів наших заходів. Їхні слова, усмішки та щирі емоції не залишили байдужим нікого із присутніх.",
+          "У ці миті ми ще раз переконалися: навіть далеко від Батьківщини українські діти можуть дарувати світло, об’єднувати людей і нагадувати всім нам про те, заради чого варто працювати."
+        ],
+        "paragraphsDe": [
+          "Die ersten Schritte unserer Arbeit waren Kinderkonzerte mit Kindern aus der Ukraine, allen voran Mitglieder von Ensembles binnenvertriebener Familien und Schüler ukrainischer Musikschulen.",
+          "Wir haben unsere Tätigkeit ganz bewusst mit den Kindern begonnen, denn Kinder sind das Fundament unserer Gesellschaft, unsere Zukunft und unsere Hoffnung. Sie bedürfen ganz besonders unserer Zuwendung, Unterstützung und der Möglichkeit, sich zu entfalten, schöpferisch tätig zu sein und zu spüren, dass ihr Talent gebraucht und geschätzt wird.",
+          "Mit Kinderstimmen, Musik, aufrichtigen Emotionen und der lebendigen ukrainischen Kultur öffneten wir die Türen für unsere Arbeit. Ein maßgeblicher Bestandteil dieses Beginns war das Konzertprogramm von Alla Gorbunova und ihrem Ensemble «Sonjashnyk», das uns half, die ersten Schritte zur Verwirklichung unserer Ziele zu gehen.",
+          "Diese Auftritte waren weit mehr als bloße Konzerte. Sie wurden zu echten Begegnungen ukrainischer Herzen, zu einer Möglichkeit, fernab der Heimat die Wärme der heimatlichen Kultur zu spüren, Sorgen zu teilen und gemeinsam Freude und Zukunftszuversicht zu schöpfen.",
+          "Die Kinderauftritte waren außerordentlich gelungen, herzlich und berührend. Das Publikum freute sich aufrichtig über das Talent der jungen Künstler, bewunderte ihr Können und spürte die unvergleichliche Atmosphäre der Verbundenheit.",
+          "Besonders die Grußworte der Kinder aus der Ukraine zählten zu den wärmsten und bewegendsten Momenten. Ihre Worte, ihr Lächeln und ihre unverfälschten Emotionen ließen niemanden im Saal unberührt.",
+          "In diesen Augenblicken haben wir uns erneut davon überzeugt: Auch fern der Heimat schenken ukrainische Kinder Licht, bringen Menschen zusammen und erinnern uns daran, wofür sich jeder Einsatz lohnt."
+        ],
+        "relatedPhotoIds": [
+          "r1-p4",
+          "r1-p5",
+          "r1-p6",
+          "r1-p7"
+        ]
+      },
+      {
+        "id": "r1-achieve",
+        "headingUa": "Чого ми досягли за перший рік?",
+        "headingDe": "Was haben wir im ersten Jahr erreicht?",
+        "icon": "Trophy",
+        "paragraphsUa": [
+          "Нашим головним досягненням стало те, що ми започаткували діяльність організації, сформували основу для подальшої роботи та зробили перші впевнені кроки до реалізації наших благодійних і культурних ініціатив.",
+          "За цей рік нам вдалося:"
+        ],
+        "paragraphsDe": [
+          "Unser größter Erfolg besteht darin, dass wir die Arbeit der Organisation ins Leben gerufen, das Fundament für die weitere Tätigkeit gelegt und die ersten sicheren Schritte zur Verwirklichung unserer gemeinnützigen und kulturellen Initiativen unternommen haben.",
+          "In diesem Jahr ist es uns gelungen:"
+        ],
+        "bulletPointsUa": [
+          "започаткувати діяльність благодійної організації «Надія та Гідність» в Австрії;",
+          "організувати та підтримати дитячі концертні заходи за участю українських дітей;",
+          "створити простір для представлення дитячих талантів, української культури та творчості;",
+          "об’єднати навколо наших ініціатив людей, небайдужих до долі України та українських дітей;",
+          "налагодити співпрацю й зміцнити дружні зв’язки з однодумцями;",
+          "закласти основу для створення власних проєктів і планування майбутньої діяльності."
+        ],
+        "bulletPointsDe": [
+          "Die Tätigkeit der Wohltätigkeitsorganisation «Hoffnung und Würde» in Österreich zu begründen;",
+          "Kinderkonzerte und Kulturveranstaltungen unter Beteiligung ukrainischer Kinder zu organisieren und zu fördern;",
+          "Einen Raum zur Entfaltung junger Talente, der ukrainischen Kultur und des kreativen Schaffens zu schaffen;",
+          "Engagierte Menschen um unsere Initiativen zu versammeln, denen das Schicksal der Ukraine und der Kinder am Herzen liegt;",
+          "Kooperationen aufzubauen und freundschaftliche Bande mit Gleichgesinnten zu festigen;",
+          "Die Grundlage für eigene nachhaltige Projekte und die zukunftsorientierte Planung zu legen."
+        ],
+        "highlightUa": "Для нас успіх вимірюється не лише кількістю заходів. Він живе в дитячих усмішках, у вдячності глядачів, у нових знайомствах, у взаємній підтримці та в бажанні продовжувати розпочате.",
+        "highlightDe": "Erfolg bemisst sich für uns nicht allein an Zahlen. Er lebt im Lächeln der Kinder, in der Dankbarkeit der Zuschauer, in neuen Begegnungen, im gegenseitigen Beistand und im unerschütterlichen Willen, das Begonnene fortzuführen."
+      },
+      {
+        "id": "r1-people",
+        "headingUa": "Люди, завдяки яким усе стало можливим",
+        "headingDe": "Menschen, dank denen alles Wirklichkeit wurde",
+        "icon": "Users",
+        "paragraphsUa": [
+          "Насамперед хочу висловити особливу подяку міжнародній організації «Українки», завдяки якій у Відні вдалося створити таку теплу, дружню та щиру атмосферу.",
+          "Саме взаєморозуміння, підтримка та спільне прагнення робити добро стали важливими складовими нашого першого року діяльності.",
+          "Окрема й щира подяка Світлані Збруй та Ірині Вірюгіній, з якими ми разом пройшли цей непростий, але надзвичайно важливий рік.",
+          "Завдяки нашій спільній роботі, наполегливості, відповідальності та вірі в те, що ми робимо, ми не лише пройшли перший етап становлення, а й почали створювати власні проєкти, формувати нові ідеї та будувати плани на майбутнє.",
+          "Ми вдячні за кожен спільний крок, за підтримку в непрості моменти, за готовність працювати, шукати рішення й не зупинятися перед труднощами.",
+          "Адже благодійність — це не лише про допомогу. Це передусім про людей, їхні серця, довіру, відповідальність і здатність бути поруч тоді, коли це найбільше потрібно."
+        ],
+        "paragraphsDe": [
+          "Vor allem möchte ich der internationalen Organisation «Ukrainki» meinen tiefen Dank aussprechen, dank der es in Wien gelang, eine so herzliche, freundschaftliche und aufrichtige Atmosphäre zu schaffen.",
+          "Gegenseitiges Verständnis, Fürsprache und das gemeinsame Streben nach dem Guten waren unverzichtbare Säulen unseres ersten Tätigkeitsjahres.",
+          "Ein ganz besonderer und herzlicher Dank gilt Svitlana Zbrui und Iryna Viriugina, mit denen wir gemeinsam durch dieses anspruchsvolle, aber unendlich wichtige Jahr gegangen sind.",
+          "Dank unserer gemeinsamen Arbeit, Beharrlichkeit, Verantwortung und dem tiefen Glauben an unsere Mission haben wir nicht nur die Gründungsphase erfolgreich gemeistert, sondern begonnen, eigene Projekte zu entwickeln, neue Impulse zu setzen und Zukunftspläne zu schmieden.",
+          "Wir sind dankbar für jeden gemeinsamen Schritt, für den Rückhalt in schwierigen Momenten, für die unermüdliche Bereitschaft, Lösungen zu finden und vor Herausforderungen nicht zurückzuweichen.",
+          "Denn Wohltätigkeit bedeutet weit mehr als bloße Hilfeleistung. Sie dreht sich in erster Linie um Menschen, ihre Herzen, um Vertrauen, Verantwortung und die Fähigkeit, genau dann zur Seite zu stehen, wenn es am nötigsten ist."
+        ],
+        "relatedPhotoIds": [
+          "r1-p1",
+          "r1-p2",
+          "r1-p3"
+        ]
+      },
+      {
+        "id": "r1-challenges",
+        "headingUa": "Чого нам поки що не вдалося зробити?",
+        "headingDe": "Was steht noch vor uns? Ehrliche Analyse",
+        "icon": "ShieldAlert",
+        "paragraphsUa": [
+          "Перший рік діяльності — це не лише привід для радості та гордості, а й час для чесного аналізу.",
+          "Ми розуміємо, що не всі задуми вдалося реалізувати відразу. Частина наших ідей і проєктів ще перебуває на етапі підготовки, пошуку партнерів, ресурсів та можливостей для втілення.",
+          "Нам ще належить розширити коло партнерів, зміцнити організаційні можливості, знайти додаткові ресурси для реалізації благодійних ініціатив і зробити нашу діяльність більш системною та масштабною.",
+          "Ми хотіли б зробити значно більше, охопити більше людей, започаткувати нові напрями допомоги та реалізувати всі ідеї, які народжуються в нашій команді. Проте ми розуміємо, що для цього потрібні час, досвід, підтримка та спільні зусилля.",
+          "Ми не сприймаємо те, чого ще не вдалося досягти, як поразку. Навпаки, це наш досвід, наші уроки та орієнтири для подальшого розвитку. Головне — ми не зупинилися. Ми продовжуємо працювати, вчитися, шукати нові можливості й вірити в те, що попереду на нас чекає ще багато добрих справ."
+        ],
+        "paragraphsDe": [
+          "Das erste Jahr ist nicht nur Grund zur Freude und zum Stolz, sondern auch Zeit für eine ehrliche Bestandsaufnahme.",
+          "Wir sind uns bewusst, dass nicht alle Vorhaben auf Anhieb verwirklicht werden konnten. Ein Teil unserer Ideen und Projekte befindet sich derzeit noch in der Vorbereitung, in der Suche nach Partnern, Ressourcen und Finanzierungsmöglichkeiten.",
+          "Vor uns liegt die Aufgabe, den Kreis unserer Partner zu erweitern, unsere organisatorischen Kapazitäten zu stärken, zusätzliche Mittel für Hilfsinitiativen einzuwerben und unsere Arbeit noch systematischer und weitreichender zu gestalten.",
+          "Wir möchten noch viel mehr bewirken, mehr Menschen erreichen, neue Hilfsbereiche eröffnen und all die Ideen umsetzen, die in unserem Team entstehen. Doch wir wissen, dass dies Zeit, Erfahrung, Unterstützung und gemeinsame Anstrengungen erfordert.",
+          "Was bisher noch nicht vollendet ist, betrachten wir keineswegs als Rückschlag. Im Gegenteil: Es sind wertvolle Erfahrungen, Lehren und Wegweiser für unser künftiges Wachstum. Das Wichtigste ist: Wir sind nicht stehen geblieben. Wir arbeiten weiter, lernen täglich dazu, suchen neue Wege und glauben fest daran, dass vor uns noch viele segensreiche Taten liegen."
+        ]
+      },
+      {
+        "id": "r1-future",
+        "headingUa": "Наші плани та погляд у майбутнє",
+        "headingDe": "Unsere Zukunftspläne & Ausblick",
+        "icon": "Compass",
+        "paragraphsUa": [
+          "Сьогодні ми вже не просто згадуємо наші перші кроки. Ми створюємо власні проєкти, обговорюємо нові ідеї та будуємо плани на наступний рік.",
+          "Ми хочемо розвивати нашу діяльність, підтримувати українських дітей, популяризувати українську культуру, зміцнювати зв’язки між українською громадою та австрійським суспільством і відкривати нові можливості для благодійності.",
+          "Ми прагнемо, щоб «Надія та Гідність» стала організацією, яка не лише говорить про добро, а й щодня втілює його в життя.",
+          "Попереду ще багато роботи. Будуть нові виклики, нові рішення та, безумовно, нові досягнення. Ми розуміємо, що не все відбувається швидко, але віримо в силу послідовної праці, партнерства та людської небайдужості."
+        ],
+        "paragraphsDe": [
+          "Heute blicken wir nicht mehr nur auf unsere ersten Schritte zurück. Wir entwickeln eigene eigenständige Projekte, diskutieren neue Ideen und schmieden konkrete Pläne für das kommende Jahr.",
+          "Wir möchten unsere Aktivitäten ausbauen, ukrainische Kinder stärken, die ukrainische Kultur fördern, Brücken zwischen der ukrainischen Gemeinschaft und der österreichischen Gesellschaft festigen und neue Perspektiven für karitative Hilfe eröffnen.",
+          "Unser Ziel ist es, dass «Hoffnung und Würde» eine Organisation bleibt, die nicht nur über das Gute spricht, sondern es tagtäglich mit Leben füllt.",
+          "Vor uns liegt noch ein weiter Weg. Es wird neue Herausforderungen, neue Antworten und gewiss auch neue Erfolge geben. Wir wissen, dass manche Entwicklungen Geduld erfordern, aber wir glauben an die Kraft beharrlicher Arbeit, partnerschaftlicher Zusammenarbeit und mitmenschlicher Anteilnahme."
+        ]
+      }
+    ],
+    "conclusionUa": {
+      "paragraphs": [
+        "Один рік — це небагато в історії організації, але це цілий рік нашого життя, праці, пошуків, рішень і маленьких перемог.",
+        "Ми починали з дитячих концертів, з української пісні, щирих усмішок і бажання подарувати людям трохи тепла. Сьогодні ми продовжуємо цей шлях, створюємо власні проєкти та дивимося в майбутнє з надією.",
+        "Я щиро вдячна всім, хто був поруч, хто підтримував наші починання, допомагав, вірив і долучався до наших справ.",
+        "Нехай наша назва — «Надія та Гідність» — завжди залишається не просто словами, а принципом нашої діяльності. Нехай надія допомагає нам рухатися вперед, а гідність нагадує про цінність кожної людини, кожної дитини та кожного доброго вчинку.",
+        "Ми пройшли наш перший рік. Ми багато чого навчилися, дещо ще маємо здіснити, але найголовніше — ми продовжуємо йти вперед і творити добро разом."
+      ],
+      "closing": "Дякуємо всім, хто став частиною нашої історії. Це лише початок!",
+      "signature": "З повагою та вдячністю,\nкоманда благодійної організації «Надія та Гідність»"
+    },
+    "conclusionDe": {
+      "paragraphs": [
+        "Ein Jahr ist in der Geschichte einer Organisation nur eine kurze Zeitspanne — doch es ist ein ganzes Jahr unseres Lebens, unserer Arbeit, unseres Suchens, unserer Entscheidungen und kleiner Siege.",
+        "Wir begannen mit Kinderkonzerten, mit ukrainischen Liedern, ehrlichem Lächeln und dem Wunsch, den Menschen etwas Wärme zu schenken. Heute setzen wir diesen Weg fort, schaffen eigene Projekte und blicken voller Hoffnung nach vorne.",
+        "Ich danke allen von ganzem Herzen, die an unserer Seite standen, unsere Anfänge unterstützt, geholfen, an uns geglaubt und mitangepackt haben.",
+        "Möge unser Name — «Hoffnung und Würde» — stets ein lebendiges Prinzip unseres Handelns bleiben. Möge die Hoffnung uns beflügeln, voranzuschreiten, und die Würde uns an den unschätzbaren Wert jedes einzelnen Menschen, jedes Kindes und jeder guten Tat erinnern.",
+        "Wir haben unser erstes Jahr gemeistert. Wir haben viel gelernt, einiges steht noch bevor — doch das Wichtigste ist: Wir gehen gemeinsam weiter und tun gemeinsam Gutes."
+      ],
+      "closing": "Vielen Dank an alle, die Teil unserer Geschichte geworden sind. Das ist erst der Anfang!",
+      "signature": "Mit Hochachtung und Dankbarkeit,\nDas Team der Hilfsorganisation «Hoffnung und Würde»"
+    },
+    "keyStats": [
+      {
+        "labelUa": "1-й Рік діяльності",
+        "labelDe": "1. Tätigkeitsjahr",
+        "value": "2024–2025",
+        "hintUa": "Рік заснування та становлення",
+        "hintDe": "Gründungs- und Aufbauphase"
+      },
+      {
+        "labelUa": "Культурні заходи",
+        "labelDe": "Kulturkonzerte",
+        "value": "Дитячі",
+        "hintUa": "За участю юних талантів України",
+        "hintDe": "Mit ukrainischen Musiktalenten"
+      },
+      {
+        "labelUa": "Партнерство",
+        "labelDe": "Starke Partner",
+        "value": "«Українки»",
+        "hintUa": "Міжнародна спільнота у Відні",
+        "hintDe": "Int. Gemeinschaft in Wien"
+      },
+      {
+        "labelUa": "Прозорість",
+        "labelDe": "Transparenz",
+        "value": "100%",
+        "hintUa": "Офіційний реєстр ZVR: 1984068166",
+        "hintDe": "ZVR-Zertifiziert in Österreich"
+      }
+    ],
+    "photos": [
+      {
+        "id": "r1-p1",
+        "url": "/images/reports/report-1-team.jpg",
+        "titleUa": "Команда благодійної організації на сцені",
+        "titleDe": "Das Organisationsteam auf der Bühne",
+        "captionUa": "Команда організації «Надія та Гідність» у Відні: Світлана Збруй, Михайло Косік, Ірина Вірюгіна та Алла Горбунова на фоні прапорів Австрії, України та офіційного штандарта.",
+        "captionDe": "Das Team von «Hoffnung und Würde» in Wien: Svitlana Zbrui, Mykhailo Kosik, Iryna Viriugina und Alla Gorbunova vor den Nationalflaggen und dem Stiftungswappen."
+      },
+      {
+        "id": "r1-p2",
+        "url": "/images/reports/report-1-founder-cert.jpg",
+        "titleUa": "Почесна грамота для засновника фонду",
+        "titleDe": "Ehrenurkunde für Stiftungsvorsitzenden",
+        "captionUa": "Засновник Михайло Косік з почесною грамотою міжнародного проекту «Різдвяні вітання з України / Weihnachtsgrüße aus der Ukraine» за вагомий особистий внесок та підтримку дітей.",
+        "captionDe": "Stiftungsvorsitzender Mykhailo Kosik mit der Ehrenurkunde «Weihnachtsgrüße aus der Ukraine» für seinen persönlichen Einsatz zur Unterstützung der Kinder."
+      },
+      {
+        "id": "r1-p3",
+        "url": "/images/reports/report-1-stage-greeting.jpg",
+        "titleUa": "Дитячий малюнок соняшників та вітання",
+        "titleDe": "Sonnenblumen-Gemälde & Bühnengruß",
+        "captionUa": "Керівниця колективу «Соняшник» Алла Горбунова та Михайло Косік на сцені. Юні артисти передали символічну картину соняшників на знак щирої вдячності.",
+        "captionDe": "Ensemble-Leiterin Alla Gorbunova und Mykhailo Kosik auf der Bühne. Junge Künstler überreichten ein Sonnenblumen-Kunstwerk als Symbol tiefer Dankbarkeit."
+      },
+      {
+        "id": "r1-p4",
+        "url": "/images/reports/report-1-awards.jpg",
+        "titleUa": "Урочисте нагородження юних артистів",
+        "titleDe": "Ehrung junger ukrainischer Talente",
+        "captionUa": "Вручення кубків, пам’ятних медалей та подарунків вихованцям музичних шкіл та дітям внутрішньо переміщених осіб за високу майстерність.",
+        "captionDe": "Feierliche Übergabe von Pokalen, Medaillen und Geschenken an ukrainische Musikschüler und Kinder vertriebener Familien."
+      },
+      {
+        "id": "r1-p5",
+        "url": "/images/reports/report-1-carols.jpg",
+        "titleUa": "Різдвяна зірка та колядки у Відні",
+        "titleDe": "Ukrainischer Weihnachtsstern in Wien",
+        "captionUa": "Українські діти у святковому національному вбранні з Різдвяною зіркою несуть світло рідних традицій на сцені у Відні.",
+        "captionDe": "Ukrainische Kinder in traditionellen Trachten mit dem Weihnachtsstern bringen heimatliche Traditionen und Lieder auf die Wiener Bühne."
+      },
+      {
+        "id": "r1-p6",
+        "url": "/images/reports/report-1-bandura-solo.jpg",
+        "titleUa": "Зворушливе сольне виконання на бандурі",
+        "titleDe": "Berührendes Bandura-Solokonzert",
+        "captionUa": "Сольний виступ юної бандуристки у вишиванці та віночку, який торкнувся сердець глядачів теплотою та майстерністю.",
+        "captionDe": "Solovortrag einer jungen Bandura-Spielerin im traditionellen Gewand, der die Herzen des Publikums mit Wärme und Können erfüllte."
+      },
+      {
+        "id": "r1-p7",
+        "url": "/images/reports/report-1-bandura-ensemble.jpg",
+        "titleUa": "Ансамбль бандуристів колективу «Соняшник»",
+        "titleDe": "Bandura-Ensemble «Sonjashnyk»",
+        "captionUa": "Майстерний виступ ансамблю бандуристок під керівництвом Али Горбунової: збереження української музичної спадщини в Австрії.",
+        "captionDe": "Virtuose Darbietung des Bandura-Ensembles unter Leitung von Alla Gorbunova zur Bewahrung des ukrainischen Musikerbes in Österreich."
+      }
+    ]
+  },
+  {
+    "id": "report-2",
+    "reportNumber": 2,
+    "yearLabelUa": "Міжнародний меморандум",
+    "yearLabelDe": "Internationales Memorandum",
+    "badgeUa": "Офіційний звіт № 2",
+    "badgeDe": "Offizieller Tätigkeitsbericht № 2",
+    "titleUa": "Україна та Австрія об’єднують зусилля заради спільного майбутнього: підписання меморандуму про співпрацю між організаціями «Надія та Гідність» і «Українки»",
+    "titleDe": "Ukraine und Österreich bündeln ihre Kräfte für eine gemeinsame Zukunft: Unterzeichnung des Kooperationsmemorandums zwischen «Hoffnung und Würde» und «Ukrainki»",
+    "subtitleUa": "Знаменна подія на Віденському бізнес-форумі стала початком нового етапу міжнародної співпраці, спрямованої на реалізацію благодійних, гуманітарних, соціальних і культурних ініціатив.",
+    "subtitleDe": "Bedeutendes Ereignis beim Wiener Wirtschaftsforum: Beginn einer neuen Phase der internationalen Zusammenarbeit für wohltätige, humanitäre, soziale und kulturelle Initiativen.",
+    "locationUa": "Готель Hilton, Відень, Австрія",
+    "locationDe": "Hotel Hilton, Wien, Österreich",
+    "coverImage": "/images/reports/report-2-emblems.png",
+    "summaryUa": "Підписання меморандуму про співпрацю у готелі Hilton у Відні: об’єднання зусиль у гуманітарному, соціальному, культурному та міжнародному напрямах.",
+    "summaryDe": "Unterzeichnung des Kooperationsmemorandums im Hotel Hilton Wien: Bündelung der Kräfte in humanitären, sozialen, kulturellen und internationalen Bereichen.",
+    "introParagraphsUa": [
+      "У стінах готелю Hilton у Відні, під час Віденського бізнес-форуму, відбулася важлива подія, яка об’єднала представників двох організацій навколо спільної мети — створення нових можливостей для допомоги людям, розвитку гуманітарних проєктів та зміцнення партнерства між Україною й Австрією.",
+      "Саме тут було підписано меморандум про співпрацю між організацією «Надія та Гідність» і міжнародною спільнотою «Українки». Цей документ став не просто формальним підтвердженням домовленостей, а символом єдності намірів, взаємної довіри та готовності до системної роботи заради добрих справ.",
+      "Меморандум підписали Ірина Вірюгіна та Світлана Збруй з однієї сторони, а також Михайло Косик і Наталія Гелетіна — з іншої."
+    ],
+    "introParagraphsDe": [
+      "In den festlichen Räumen des Hotels Hilton in Wien fand im Rahmen des Wiener Wirtschaftsforums ein bedeutendes Ereignis statt, das Vertreter beider Organisationen um ein gemeinsames Ziel vereinte: neue Perspektiven zur Hilfe für Menschen zu schaffen, humanitäre Projekte voranzutreiben und die Partnerschaft zwischen der Ukraine und Österreich zu festigen.",
+      "Hier wurde das Kooperationsmemorandum zwischen der Hilfsorganisation «Hoffnung und Würde» und der internationalen Gemeinschaft «Ukrainki» feierlich unterzeichnet. Dieses Dokument ist nicht bloß eine formelle Bestätigung von Vereinbarungen, sondern ein starkes Symbol geeinter Absichten, gegenseitigen Vertrauens und der Bereitschaft zur systematischen Zusammenarbeit für das Wohl der Menschen.",
+      "Das Memorandum wurde von Iryna Viriugina und Svitlana Zbrui auf der einen Seite sowie von Mykhailo Kosik und Nataliia Heletina auf der anderen Seite feierlich besiegelt."
+    ],
+    "sections": [
+      {
+        "id": "r2-mission",
+        "headingUa": "Дві організації — спільна місія",
+        "headingDe": "Zwei Organisationen — eine gemeinsame Mission",
+        "icon": "Handshake",
+        "paragraphsUa": [
+          "Об’єднання зусиль двох потужних організацій відкриває нові перспективи для реалізації масштабних ініціатив, покликаних зміцнювати зв’язки між Україною та Австрією, підтримувати людей і створювати умови для позитивних суспільних змін.",
+          "Основою підписаного меморандуму стало прагнення сторін об’єднати досвід, ресурси, партнерські зв’язки та організаційний потенціал задля досягнення спільних цілей. Адже справжня сила міжнародної співпраці полягає не лише в обміні досвідом, а й у здатності разом перетворювати добрі наміри на конкретні справи."
+        ],
+        "paragraphsDe": [
+          "Der Schulterschluss beider Organisationen eröffnet neue Horizonte für wegweisende Initiativen, die Brücken zwischen der Ukraine und Österreich schlagen, Hilfsbedürftige stützen und den Boden für nachhaltige gesellschaftliche Verbesserungen bereiten.",
+          "Fundament des unterzeichneten Memorandums ist das gemeinsame Bestreben, Erfahrungsschätze, Ressourcen, Partnernetzwerke und organisatorische Tatkraft zu bündeln. Denn die wahre Stärke internationaler Partnerschaft liegt im gemeinsamen Vermögen, edle Absichten in handfeste Taten umzumünzen."
+        ],
+        "relatedPhotoIds": [
+          "r2-p1",
+          "r2-p2"
+        ]
+      },
+      {
+        "id": "r2-directions",
+        "headingUa": "Ключові напрями співпраці",
+        "headingDe": "Schwerpunkte der Partnerschaft",
+        "icon": "Target",
+        "paragraphsUa": [
+          "Сторони визначили пріоритетні напрями, які стануть основою подальшої спільної діяльності:"
+        ],
+        "paragraphsDe": [
+          "Die Partner haben prioritäre Handlungsfelder definiert, die das Rückgrat der künftigen Zusammenarbeit bilden:"
+        ],
+        "bulletPointsUa": [
+          "Гуманітарний напрям — розвиток ініціатив допомоги людям, підтримка тих, хто опинився у складних життєвих обставинах, та реалізація гуманітарних проєктів.",
+          "Соціальний напрям — підтримка суспільно важливих програм, розвиток партнерських ініціатив і створення нових можливостей для людей та громад.",
+          "Культурний напрям — популяризація української культури, збереження національної ідентичності, розвиток міжкультурного діалогу та зміцнення культурних зв’язків між Україною й Австрією.",
+          "Міжнародне партнерство — налагодження співпраці між організаціями, залучення нових партнерів і формування спільних проєктів, спрямованих на довгостроковий результат."
+        ],
+        "bulletPointsDe": [
+          "Humanitärer Bereich: Ausbau von Direkthilfen, Fürsorge für Menschen in existentiellen Notsituationen und Durchführung zielgerichteter Hilfsprojekte.",
+          "Sozialer Bereich: Förderung gesellschaftsrelevanter Initiativen, Partnerschaftsprojekte und Erschließung neuer Chancen für Betroffene und Kommunen.",
+          "Kultureller Bereich: Vermittlung der ukrainischen Kultur, Wahrung der Identität, interkultureller Dialog und Festigung der österreichisch-ukrainischen Kulturbeziehungen.",
+          "Internationale Partnerschaft: Vernetzung von Verbänden, Gewinnung neuer Förderer und Konzeption nachhaltiger, langfristig wirksamer Kooperationen."
+        ],
+        "highlightUa": "Ці напрями є фундаментом для формування комплексної програми співпраці, яка поєднуватиме благодійність, соціальну відповідальність, культурний обмін і міжнародну взаємодію.",
+        "highlightDe": "Diese Pfeiler bilden das Fundament eines umfassenden Aktionsprogramms, das Wohltätigkeit, gesellschaftliche Verantwortung, Kulturaustausch und internationale Solidarität nahtlos verbindet."
+      },
+      {
+        "id": "r2-future",
+        "headingUa": "Партнерство, яке дивиться в майбутнє",
+        "headingDe": "Eine Partnerschaft mit Zukunftsblick",
+        "icon": "Compass",
+        "paragraphsUa": [
+          "Підписання меморандуму у Відні стало важливим кроком до формування довгострокової програми спільної діяльності. Її перспективна мета — створювати й підтримувати проєкти, що сприятимуть розвитку гуманітарного сектору, зміцненню громадянських ініціатив та поглибленню співпраці між Україною й Австрією.",
+          "Для організації «Надія та Гідність» ця подія є підтвердженням того, що відкритість до партнерства, спільне бачення майбутнього та готовність діяти здатні об’єднувати людей і організації навколо важливих суспільних завдань.",
+          "Міжнародна спільнота «Українки» та «Надія та Гідність» поєднали свої прагнення в єдину місію — працювати заради людей, підтримувати добрі ініціативи та розширювати можливості для спільних благодійних, гуманітарних, соціальних і культурних проєктів."
+        ],
+        "paragraphsDe": [
+          "Die Unterzeichnung in Wien stellt einen Meilenstein auf dem Weg zu einem langfristigen Kooperationsprogramm dar. Übergeordnetes Ziel ist die Initiierung und Begleitung von Projekten zur Stärkung des humanitären Sektors, zivilgesellschaftlicher Impulse und vertiefter Bande zwischen beiden Nationen.",
+          "Für «Hoffnung und Würde» bekräftigt dieser Schritt, dass Kooperationsbereitschaft, eine gemeinsame Vision und Entschlossenheit geeignet sind, Kräfte für fundamentale Aufgaben wirksam zu bündeln.",
+          "Die internationale Gemeinschaft «Ukrainki» und «Hoffnung und Würde» vereinen ihre Zielsetzungen in einer gemeinsamen Mission: Dienst am Mitmenschen, Förderung karitativer Vorhaben und kontinuierliche Erweiterung gemeinsamer Handlungsfelder."
+        ],
+        "relatedPhotoIds": [
+          "r2-p3",
+          "r2-p4",
+          "r2-p5",
+          "r2-p6"
+        ]
+      }
+    ],
+    "conclusionUa": {
+      "paragraphs": [
+        "Сьогодні, коли міжнародна солідарність, взаємна підтримка та людяність набувають особливого значення, кожне партнерство, засноване на спільних цінностях, стає важливим кроком до позитивних змін.",
+        "Меморандум, підписаний у серці Відня, — це початок нового шляху, на якому український досвід, австрійські можливості та спільне прагнення допомагати можуть стати основою для реалізації важливих суспільних ініціатив."
+      ],
+      "closing": "«Надія та Гідність» і міжнародна спільнота «Українки» об’єднують зусилля, щоб перетворювати ідеї на справи, партнерство — на результат, а спільну мрію — на реальні можливості для людей.",
+      "signature": "Адже великі зміни починаються з єдності, щирого бажання допомагати та віри в те, що разом ми здатні зробити більше."
+    },
+    "conclusionDe": {
+      "paragraphs": [
+        "In Zeiten, da internationale Solidarität, gegenseitiger Beistand und Menschlichkeit existenzielle Bedeutung besitzen, wird jede auf gemeinsamen Werten gründende Partnerschaft zu einem bedeutsamen Schritt nach vorne.",
+        "Das im Herzen Wiens geschlossene Memorandum eröffnet einen neuen Weg, auf dem ukrainische Resilienz, österreichische Möglichkeiten und der gemeinsame Wille zu helfen das Fundament für bedeutende gesellschaftliche Initiativen bilden."
+      ],
+      "closing": "«Hoffnung und Würde» und die Gemeinschaft «Ukrainki» bündeln ihre Kräfte, um Ideen in Taten, Partnerschaft in Ergebnisse und Hoffnungen in greifbare Lebensperspektiven für Menschen zu verwandeln.",
+      "signature": "Denn große Veränderungen beginnen mit Zusammenhalt, ehrlicher Hilfsbereitschaft und dem festen Glauben daran, dass wir gemeinsam mehr erreichen."
+    },
+    "keyStats": [
+      {
+        "labelUa": "2 Організації",
+        "labelDe": "2 Organisationen",
+        "value": "«Надія та Гідність» + «Українки»",
+        "hintUa": "Об’єднання зусиль",
+        "hintDe": "Strategischer Schulterschluss"
+      },
+      {
+        "labelUa": "Локація",
+        "labelDe": "Veranstaltungsort",
+        "value": "Hilton Wien",
+        "hintUa": "Віденський бізнес-форум",
+        "hintDe": "Wiener Wirtschaftsforum"
+      },
+      {
+        "labelUa": "4 Напрями",
+        "labelDe": "4 Kernbereiche",
+        "value": "Гуманітарний, Соціальний, Культура, Партнерство",
+        "hintUa": "Комплексна програма дій",
+        "hintDe": "Umfassendes Hilfsprogramm"
+      },
+      {
+        "labelUa": "Статус",
+        "labelDe": "Partnerschaftsstatus",
+        "value": "Офіційний",
+        "hintUa": "Меморандум підписано у Відні",
+        "hintDe": "Offiziell besiegelt in Wien"
+      }
+    ],
+    "photos": [
+      {
+        "id": "r2-p1",
+        "url": "/images/reports/report-2-emblems.png",
+        "titleUa": "Офіційні емблеми організацій-партнерів",
+        "titleDe": "Offizielle Wappen der Partnerorganisationen",
+        "captionUa": "Символічне поєднання логотипів: Міжнародна спільнота «Українки» та Благодійна організація «Hoffnung & Würde Wien Österreich».",
+        "captionDe": "Symbolische Verbindung der Wappen: Internationale Gemeinschaft «Ukrainki» und Wohltätigkeitsorganisation «Hoffnung & Würde Wien Österreich»."
+      },
+      {
+        "id": "r2-p2",
+        "url": "/images/reports/report-2-standing-docs.jpg",
+        "titleUa": "Представлення підписаного меморандуму",
+        "titleDe": "Präsentation des unterzeichneten Memorandums",
+        "captionUa": "Засновник Михайло Косик та Світлана Збруй у готелі Hilton у Відні з офіційними примірниками підписаного меморандуму про співпрацю.",
+        "captionDe": "Stiftungsvorsitzender Mykhailo Kosik und Svitlana Zbrui im Hotel Hilton Wien mit den unterzeichneten Dokumenten der Kooperationsvereinbarung."
+      },
+      {
+        "id": "r2-p3",
+        "url": "/images/reports/report-2-signing-table.jpg",
+        "titleUa": "Офіційне скріплення меморандуму печаткою",
+        "titleDe": "Offizielle Siegelung des Memorandums",
+        "captionUa": "Урочистий момент підписання та скріплення меморандуму офіційними печатками за круглим столом переговорів у Відні.",
+        "captionDe": "Feierlicher Moment des Unterzeichnens und der offiziellen Beglaubigung des Memorandums am Verhandlungstisch in Wien."
+      },
+      {
+        "id": "r2-p4",
+        "url": "/images/reports/report-2-discussion.jpg",
+        "titleUa": "Обговорення спільних проектів та узгодження деталей",
+        "titleDe": "Fachgespräch über gemeinsame Projekte",
+        "captionUa": "Робоче обговорення пунктів меморандуму, перспектив гуманітарних програм та координації спільних благодійних заходів.",
+        "captionDe": "Fachlicher Austausch über die Programmpunkte des Memorandums, künftige Hilfsinitiativen und die Koordination karitativer Vorhaben."
+      },
+      {
+        "id": "r2-p5",
+        "url": "/images/reports/report-2-handshake.jpg",
+        "titleUa": "Рукостискання єдності та партнерства",
+        "titleDe": "Handschlag der Verbundenheit",
+        "captionUa": "Скріплення партнерства дружнім рукостисканням: новий етап міжнародної співпраці заради України та добрих справ у Відні.",
+        "captionDe": "Besiegelung der Partnerschaft mit festem Handschlag: Eine neue Ära internationaler Zusammenarbeit zum Wohle der Menschen."
+      },
+      {
+        "id": "r2-p6",
+        "url": "/images/reports/report-2-motanka-hub.jpg",
+        "titleUa": "Традиційна українська мотанка на бізнес-форумі",
+        "titleDe": "Traditionelle ukrainische Motanka-Puppe",
+        "captionUa": "Світлана Збруй та Наталія Гелетіна з унікальною традиційною українською лялькою-мотанкою біля банера Ukrainian-European Business Hub.",
+        "captionDe": "Svitlana Zbrui und Nataliia Heletina mit einer kunstvoll gefertigten Motanka-Traditionspuppe am Stand des Ukrainian-European Business Hub."
+      }
+    ]
+  },
+  {
+    "id": "report-3",
+    "reportNumber": 3,
+    "yearLabelUa": "Парламентський діалог",
+    "yearLabelDe": "Parlamentarischer Dialog",
+    "badgeUa": "Офіційний звіт № 3",
+    "badgeDe": "Offizieller Tätigkeitsbericht № 3",
+    "titleUa": "Діалог заради України: благодійна організація «Надія та Гідність» розвиває співпрацю з австрійським парламентом",
+    "titleDe": "Dialog für die Ukraine: Hilfsorganisation «Hoffnung und Würde» vertieft die Zusammenarbeit mit dem österreichischen Parlament",
+    "subtitleUa": "Міжнародна співпраця, підтримка України та пошук спільних рішень — важливі напрями діяльності благодійної організації «Надія та Гідність».",
+    "subtitleDe": "Internationale Zusammenarbeit, Beistand für die Ukraine und gemeinsame Lösungsansätze als wesentliche Pfeiler der Hilfsorganisation «Hoffnung und Würde».",
+    "locationUa": "Парламент Австрії, Відень",
+    "locationDe": "Österreichisches Parlament, Wien",
+    "coverImage": "/images/reports/report-3-terrace-quadriga.png",
+    "summaryUa": "Зустрічі з австрійськими парламентарями у стінах Парламенту у Відні: гуманітарні потреби, діалог про підтримку українців та спільне європейське майбутнє.",
+    "summaryDe": "Begegnungen mit österreichischen Abgeordneten im Hohen Haus in Wien: Humanitärer Bedarf, Beistand für die Bevölkerung und gemeinsame europäische Zukunft.",
+    "introParagraphsUa": [
+      "Налагодження конструктивного діалогу з представниками австрійського парламенту є одним із пріоритетів нашої організації. Ми переконані, що саме через відкритий діалог, взаєморозуміння та об’єднання зусиль міжнародної спільноти можна знаходити дієві рішення для подолання актуальних викликів і підтримки українського народу.",
+      "У співпраці з міжнародною спільнотою та за участю українок ми провели низку зустрічей із парламентарями Австрії, які представляють різні політичні напрями. Під час цих зустрічей ми обговорювали як актуальні події в Україні, так і важливі гуманітарні, соціальні та суспільні питання, що потребують уваги й конкретних рішень.",
+      "Для нас ці зустрічі — не лише можливість розповісти про діяльність нашої організації, а й важливий крок до формування довготривалих партнерських відносин, пошуку нових можливостей співпраці та залучення підтримки для реалізації наших ініціатив."
+    ],
+    "introParagraphsDe": [
+      "Der Aufbau eines konstruktiven Dialogs mit den Abgeordneten des österreichischen Parlaments ist ein vorrangiges Anliegen unserer Organisation. Wir sind überzeugt, dass durch offenen Austausch, gegenseitiges Verstehen und das Zusammenwirken der Staatengemeinschaft wirksame Wege zur Bewältigung der Herausforderungen und zum Beistand für das ukrainische Volk gefunden werden.",
+      "In Zusammenarbeit mit der internationalen Gemeinschaft und unter Beteiligung engagierter Ukrainerinnen führten wir eine Reihe substanzieller Gespräche mit Mandataren verschiedener politischer Fraktionen des Nationalrats. Im Mittelpunkt standen die aktuelle Lage in der Ukraine sowie drängende humanitäre, soziale und gesellschaftliche Anliegen, die konkreter Antworten bedürfen.",
+      "Für uns bedeuten diese Begegnungen weit mehr als nur die Vorstellung unserer Stiftungsarbeit: Sie sind ein entscheidender Schritt zur Etablierung langfristiger partnerschaftlicher Beziehungen, zur Erschließung neuer Kooperationspfade und zur Gewinnung von Rückhalt für unsere gemeinnützigen Initiativen."
+    ],
+    "sections": [
+      {
+        "id": "r3-openness",
+        "headingUa": "Тепле ставлення та щирий інтерес австрійських парламентарів",
+        "headingDe": "Herzliche Aufnahme und gelebtes Interesse der Abgeordneten",
+        "icon": "Building2",
+        "paragraphsUa": [
+          "Ми з великою вдячністю відзначаємо тепле ставлення австрійських парламентарів до наших починань, їхню відкритість до спілкування та щирий інтерес до подій, які відбуваються в Україні. Під час зустрічей ми відчули готовність уважно слухати, ставити важливі запитання, краще розуміти потреби українського суспільства та шукати шляхи, якими Австрія може бути корисною нашій державі.",
+          "Особливо важливо, що Україна залишається в полі зору міжнародних партнерів, а питання її сьогодення та майбутнього знаходять відгук у тих, хто має можливість впливати на суспільні процеси й підтримувати міжнародні ініціативи."
+        ],
+        "paragraphsDe": [
+          "Mit aufrichtiger Dankbarkeit heben wir die überaus herzliche Aufnahme unserer Anliegen durch die österreichischen Abgeordneten hervor, ihre unvoreingenommene Gesprächsbereitschaft und ihr tief empfundenes Interesse an den Geschehnissen in der Ukraine. Wir erlebten eine spürbare Bereitschaft zum aufmerksamen Zuhören, zu gezielten Rückfragen und zum vertieften Verständnis der Bedürfnisse der ukrainischen Gesellschaft.",
+          "Es ist von unschätzbarem Wert, dass das Schicksal der Ukraine im Fokus der internationalen Partner bleibt und die Fragen ihrer Gegenwart und Zukunft auf offene Ohren bei jenen Entscheidungsträgern stoßen, die gesellschaftliche Prozesse mitgestalten."
+        ],
+        "relatedPhotoIds": [
+          "r3-p1",
+          "r3-p2",
+          "r3-p3"
+        ]
+      },
+      {
+        "id": "r3-actions",
+        "headingUa": "Конкретні результати та розширення міжнародних зв’язків",
+        "headingDe": "Konkrete Ergebnisse und Ausbau internationaler Brücken",
+        "icon": "TrendingUp",
+        "paragraphsUa": [
+          "Ми віримо, що кожна зустріч, кожна розмова та кожен новий контакт наближають нас до конкретних результатів. Саме тому «Надія та Гідність» продовжує працювати над розширенням міжнародних зв’язків, залученням партнерів і створенням нових можливостей для підтримки України.",
+          "Щиро дякуємо Австрії, її представникам у парламенті та всім друзям України за відкритість, увагу, солідарність і позитивне ставлення до наших ініціатив."
+        ],
+        "paragraphsDe": [
+          "Wir glauben fest daran, dass jede persönliche Begegnung, jeder Gedankenaustausch und jeder neue Kontakt uns handfesten Resultaten näher bringt. Daher setzt «Hoffnung und Würde» die engagierte Arbeit zur Vertiefung internationaler Bindungen, zur Einbindung verlässlicher Partner und zur Schaffung neuer Hilfskanäle konsequent fort.",
+          "Unser aufrichtiger Dank gilt der Republik Österreich, den Mandataren im Parlament und allen Freunden der Ukraine für gelebte Solidarität, Aufmerksamkeit und die wohlwollende Unterstützung unserer Arbeit."
+        ],
+        "relatedPhotoIds": [
+          "r3-p4",
+          "r3-p5"
+        ]
+      }
+    ],
+    "conclusionUa": {
+      "paragraphs": [
+        "Ми цінуємо кожен прояв підтримки та переконані: об’єднуючи зусилля, ми можемо зробити більше для людей, які потребують допомоги, для зміцнення українсько-австрійських зв’язків і для спільного європейського майбутнього."
+      ],
+      "closing": "«Надія та Гідність» — заради людей, заради України, заради майбутнього, у якому солідарність перетворюється на конкретні дії.",
+      "signature": "З вдячністю австрійським партнерам,\nкоманда благодійної організації «Надія та Гідність»"
+    },
+    "conclusionDe": {
+      "paragraphs": [
+        "Wir schätzen jedes Zeichen des Beistands und sind überzeugt: Durch vereinte Kräfte können wir mehr für jene bewirken, die Hilfe bedürfen, die österreichisch-ukrainischen Freundschaftsbande festigen und ein gemeinsames europäisches Fundament stärken."
+      ],
+      "closing": "«Hoffnung und Würde» — für die Menschen, für die Ukraine, für eine Zukunft, in der Solidarität zur greifbaren Tat wird.",
+      "signature": "In Dankbarkeit an die österreichischen Partner,\nDas Team der Hilfsorganisation «Hoffnung und Würde»"
+    },
+    "keyStats": [
+      {
+        "labelUa": "Локація зустрічі",
+        "labelDe": "Ort des Dialogs",
+        "value": "Парламент Австрії",
+        "hintUa": "Відень, Dr.-Karl-Renner-Ring",
+        "hintDe": "Wien, Hohes Haus"
+      },
+      {
+        "labelUa": "Формат",
+        "labelDe": "Gesprächsformat",
+        "value": "Парламентський діалог",
+        "hintUa": "Зустрічі з парламентарями різних фракцій",
+        "hintDe": "Austausch mit Abgeordneten"
+      },
+      {
+        "labelUa": "Мета",
+        "labelDe": "Zielsetzung",
+        "value": "Гуманітарна підтримка",
+        "hintUa": "Допомога Україні та українцям",
+        "hintDe": "Beistand für die ukrainische Bevölkerung"
+      },
+      {
+        "labelUa": "Вектор",
+        "labelDe": "Zukunftsperspektive",
+        "value": "Європейське майбутнє",
+        "hintUa": "Зміцнення партнерства з Австрією",
+        "hintDe": "Vertiefung der bilateralen Beziehungen"
+      }
+    ],
+    "photos": [
+      {
+        "id": "r3-p1",
+        "url": "/images/reports/report-3-parliament-hall.jpg",
+        "titleUa": "У мармуровій залі австрійського парламенту",
+        "titleDe": "Im historischen Marmorsaal des Parlaments",
+        "captionUa": "Засновник Михайло Косік з офіційною акредитацією та аудіогідом у величній мармуровій залі Парламенту Австрії у Відні.",
+        "captionDe": "Stiftungsvorsitzender Mykhailo Kosik mit offizieller Akkreditierung im historischen Prachtsaal des österreichischen Parlaments in Wien."
+      },
+      {
+        "id": "r3-p2",
+        "url": "/images/reports/report-3-terrace-quadriga.png",
+        "titleUa": "Делегація на терасі парламенту біля Квадриги",
+        "titleDe": "Delegation auf der Parlamentsterrasse an der Quadriga",
+        "captionUa": "Українська делегація на даховій терасі віденського парламенту біля монументальної Квадриги під час зустрічі з австрійським парламентарем.",
+        "captionDe": "Die ukrainische Delegation auf der Dachterrasse des Hohen Hauses vor den monumentalen Siegesquadrigen im Gespräch mit einem Nationalratsabgeordneten."
+      },
+      {
+        "id": "r3-p3",
+        "url": "/images/reports/report-3-terrace-vienna.jpg",
+        "titleUa": "Панорама Відня з тераси австрійського парламенту",
+        "titleDe": "Wiener Stadtpanorama von der Parlamentsterrasse",
+        "captionUa": "Учасники зустрічі на оглядовій терасі Парламенту Австрії з видом на історичний центр Відня: обговорення перспектив двосторонньої взаємодії.",
+        "captionDe": "Teilnehmer des Treffens auf der Aussichtsterrasse mit Blick auf das historische Wien: Vertiefung der bilateralen Perspektiven."
+      },
+      {
+        "id": "r3-p4",
+        "url": "/images/reports/report-3-thumbsup.jpg",
+        "titleUa": "Дружня атмосфера солідарності та підтримки",
+        "titleDe": "Freundschaftliche Atmosphäre der Solidarität",
+        "captionUa": "Михайло Косік та представники австрійських партнерів у кулуарах після успішного обговорення гуманітарних ініціатив.",
+        "captionDe": "Mykhailo Kosik und österreichische Repräsentanten nach den erfolgreichen Fachgesprächen zur Unterstützung humanitärer Hilfen."
+      },
+      {
+        "id": "r3-p5",
+        "url": "/images/reports/report-3-dialogue.jpg",
+        "titleUa": "Конструктивний діалог та обмін контактами",
+        "titleDe": "Konstruktiver Austausch und Kontaktvernetzung",
+        "captionUa": "Світлана Збруй, Михайло Косік та австрійський представник під час жвавого обговорення конкретних кроків підтримки України.",
+        "captionDe": "Svitlana Zbrui, Mykhailo Kosik und ein österreichischer Gesprächspartner beim Austausch über konkrete Hilfsschritte für die Ukraine."
+      }
+    ]
+  },
+  {
+    "id": "report-4",
+    "reportNumber": 4,
+    "yearLabelUa": "Бізнес-форуми та нетворкінг",
+    "yearLabelDe": "Wirtschaftsforen & Vernetzung",
+    "badgeUa": "Офіційний звіт № 4",
+    "badgeDe": "Offizieller Tätigkeitsbericht № 4",
+    "titleUa": "Благодійна організація «Надія та Гідність» — серед учасників бізнес-форумів у Відні",
+    "titleDe": "Wohltätigkeitsorganisation «Hoffnung und Würde» — unter den Teilnehmern der Wirtschaftsforen in Wien",
+    "subtitleUa": "Нові знайомства, перспективні партнерства та спільні ідеї заради майбутнього — участь у бізнес-форумах у Відні вже стає доброю традицією для благодійної організації «Надія та Гідність».",
+    "subtitleDe": "Neue Kontakte, zukunftsträchtige Partnerschaften und gemeinsame Impulse — die Teilnahme an Wirtschaftsforen in Wien wird zur gelebten Tradition der Hilfsorganisation «Hoffnung und Würde».",
+    "locationUa": "Відень, Австрія",
+    "locationDe": "Wien, Österreich",
+    "coverImage": "/images/reports/report-4-forum-hall.jpg",
+    "summaryUa": "Участь у Віденських бізнес-форумах (Vienna Grand Forum, Ukrainian-European Business Hub), нетворкінг з українськими підприємцями в Європі та подяка Дар’ї Дідковській і Ларисі Медведковій.",
+    "summaryDe": "Teilnahme an Wiener Wirtschaftsforen (Vienna Grand Forum, Ukrainian-European Business Hub), Vernetzung mit ukrainischen Unternehmern in Europa und Dank an Daria Didkovska und Larysa Medvedkova.",
+    "introParagraphsUa": [
+      "Для нас такі зустрічі — це значно більше, ніж просто ділові заходи. Це можливість бути частиною активної бізнес-спільноти, знайомитися з новими людьми, обмінюватися досвідом, приймати цікаві пропозиції та ділитися власними планами й баченням подальшого розвитку.",
+      "Ми переконані, що саме у відкритому діалозі, взаємній підтримці та співпраці народжуються ідеї, які згодом перетворюються на реальні проєкти. Кожен форум відкриває нові можливості для знайомств, зміцнення партнерських відносин і пошуку однодумців, з якими можна реалізовувати важливі ініціативи."
+    ],
+    "introParagraphsDe": [
+      "Für uns bedeuten solche Zusammenkünfte weit mehr als bloße geschäftliche Termine. Es ist die Gelegenheit, aktiver Teil einer dynamischen Unternehmergemeinschaft zu sein, neue Persönlichkeiten kennenzulernen, Erfahrungen auszutauschen, inspirierende Impulse aufzunehmen und eigene Pläne sowie Visionen für die karitative Arbeit vorzustellen.",
+      "Wir sind überzeugt, dass gerade im offenen Austausch, im gegenseitigen Beistand und in gelebter Kooperation jene Ideen reifen, die sich später in greifbare Hilfsprojekte verwandeln. Jedes Forum eröffnet neue Horizonte für wertvolle Begegnungen, festigt partnerschaftliche Bande und führt Gleichgesinnte zusammen, um bedeutende Initiativen ins Leben zu rufen."
+    ],
+    "sections": [
+      {
+        "id": "r4-entrepreneurs",
+        "headingUa": "Сила українського характеру та успіх у Європі",
+        "headingDe": "Die Stärke des ukrainischen Unternehmertums in Europa",
+        "icon": "Sparkles",
+        "paragraphsUa": [
+          "Особливо приємно зустрічати українців, які, попри всі труднощі та виклики, впевнено рухаються до своєї мети в Європі, розвивають власну справу, створюють нові можливості та досягають вагомих результатів.",
+          "Їхні історії надихають, доводять силу українського характеру та вкотре підтверджують, що наполегливість, професіоналізм і віра у власну справу здатні відкривати нові горизонти."
+        ],
+        "paragraphsDe": [
+          "Besonders berührend und ermutigend ist es, Ukrainerinnen und Ukrainern zu begegnen, die trotz aller Widrigkeiten und Erschütterungen zielstrebig ihren Weg in Europa beschreiten, eigene Unternehmen aufbauen, neue Arbeitsplätze schaffen und beachtliche Erfolge erzielen.",
+          "Ihre Lebensgeschichten inspirieren zutiefst, beweisen die ungebrochene Kraft des ukrainischen Geistes und bekräftigen von Neuem: Ausdauer, Professionalität und Zuversicht vermögen weite Horizonte zu eröffnen."
+        ],
+        "relatedPhotoIds": [
+          "r4-p1",
+          "r4-p2",
+          "r4-p3",
+          "r4-p4"
+        ]
+      },
+      {
+        "id": "r4-gratitude",
+        "headingUa": "Особлива подяка організаторкам бізнес-форумів",
+        "headingDe": "Besonderer Dank an die Initiatorinnen des Forums",
+        "icon": "Heart",
+        "paragraphsUa": [
+          "Окремі слова вдячності та поваги хочемо висловити організаторкам бізнес-форумів — Дар’ї Дідковській та Ларисі Медведковій.",
+          "Їхня діяльність, енергія та відданість своїй справі роблять вагомий внесок у розвиток ділової спільноти, налагодження міжнародних контактів і підтримку перспективних бізнес-напрямків, важливих як для Європи, так і далеко за її межами.",
+          "Створювати простір, у якому зустрічаються підприємці, фахівці, громадські діячі та представники різних сфер діяльності, — це велика й відповідальна робота. Саме завдяки таким ініціативам з’являються нові партнерства, зміцнюється довіра та формуються основи для майбутніх спільних проєктів."
+        ],
+        "paragraphsDe": [
+          "Ein ganz besonderer Ausdruck der Wertschätzung und Hochachtung gilt den Initiatorinnen und Organisatorinnen der Wirtschaftsforen — Daria Didkovska und Larysa Medvedkova.",
+          "Ihr unermüdlicher Einsatz, ihre Energie und Hingabe leisten einen herausragenden Beitrag zur Entwicklung der Unternehmerschaft, zum Knüpfen internationaler Kontakte und zur Förderung zukunftsorientierter Wirtschaftsbereiche in Europa und darüber hinaus.",
+          "Einen Raum zu schaffen, in dem Unternehmer, Fachexperten, Persönlichkeiten des öffentlichen Lebens und Kulturschaffende zusammenfinden, erfordert immense Verantwortung und Weitsicht. Durch solche Plattformen wächst gegenseitiges Vertrauen und es entsteht das Fundament für wegweisende gemeinsame Projekte."
+        ],
+        "relatedPhotoIds": [
+          "r4-p5",
+          "r4-p6",
+          "r4-p7",
+          "r4-p8",
+          "r4-p9"
+        ]
+      },
+      {
+        "id": "r4-partnership",
+        "headingUa": "Участь у заходах — важлива складова нашого розвитку",
+        "headingDe": "Teilnahme an Foren als Impulsgeber unserer Arbeit",
+        "icon": "TrendingUp",
+        "paragraphsUa": [
+          "Для благодійної організації «Надія та Гідність» участь у таких заходах є важливою складовою розвитку. Ми відкриті до нових ідей, конструктивних пропозицій і співпраці з людьми та організаціями, які поділяють наші цінності й прагнуть робити добрі справи.",
+          "Ми віримо, що сила — у єдності, розвиток — у партнерстві, а великі зміни починаються з людей, готових діяти.",
+          "Дякуємо організаторам, учасникам і всім, хто долучається до створення середовища, у якому народжуються нові можливості для українців у Європі. Попереду — нові зустрічі, нові знайомства та спільні добрі справи!"
+        ],
+        "paragraphsDe": [
+          "Für die gemeinnützige Organisation «Hoffnung und Würde» ist die Mitwirkung an diesen Foren ein wesentlicher Baustein der stetigen Weiterentwicklung. Wir stehen neuen Ideen, konstruktiven Vorschlägen und der Kooperation mit all jenen Menschen und Institutionen offen gegenüber, die unsere Grundwerte teilen und Gutes bewirken wollen.",
+          "Wir glauben fest: Die Kraft liegt in der Einheit, Fortschritt liegt in Partnerschaft, und große Veränderungen nehmen ihren Anfang bei Menschen, die mutig handeln.",
+          "Unser aufrichtiger Dank gilt den Organisatoren, allen Teilnehmern und jedem Einzelnen, der an diesem fruchtbaren Umfeld neuer Möglichkeiten für Ukrainer in Europa mitwirkt. Vor uns liegen viele weitere Begegnungen und segensreiche gemeinsame Werke!"
+        ]
+      }
+    ],
+    "conclusionUa": {
+      "paragraphs": [
+        "Попереду — нові зустрічі, нові знайомства та спільні добрі справи!"
+      ],
+      "closing": "Благодійна організація «Надія та Гідність» — об’єднуємо людей, зміцнюємо партнерства, відкриваємо можливості.",
+      "signature": "З повагою та вдячністю,\nкоманда благодійної організації «Надія та Гідність»"
+    },
+    "conclusionDe": {
+      "paragraphs": [
+        "Vor uns liegen inspirierende Treffen, neue Begegnungen und gemeinsame karitative Taten!"
+      ],
+      "closing": "Wohltätigkeitsorganisation «Hoffnung und Würde» — Menschen verbinden, Partnerschaften stärken, Chancen eröffnen.",
+      "signature": "Mit Respekt und Dankbarkeit,\nDas Team der Hilfsorganisation «Hoffnung und Würde»"
+    },
+    "keyStats": [
+      {
+        "labelUa": "Форуми у Відні",
+        "labelDe": "Wirtschaftsforen",
+        "value": "Vienna Grand Forum",
+        "hintUa": "Ukrainian-European Business Hub",
+        "hintDe": "Internationale Konferenzen"
+      },
+      {
+        "labelUa": "Партнери",
+        "labelDe": "Organisatorinnen",
+        "value": "Дар’я Дідковська & Лариса Медведкова",
+        "hintUa": "Організаторки та бізнес-лідерки",
+        "hintDe": "Führende Wirtschaftsmentorinnen"
+      },
+      {
+        "labelUa": "Нетворкінг",
+        "labelDe": "Vernetzung",
+        "value": "Європейський",
+        "hintUa": "Співпраця з українськими підприємцями",
+        "hintDe": "Austausch mit Unternehmern"
+      },
+      {
+        "labelUa": "Місія",
+        "labelDe": "Mission",
+        "value": "Єдність та дія",
+        "hintUa": "Спільні благодійні та соціальні ініціативи",
+        "hintDe": "Gemeinsame soziale Wirkung"
+      }
+    ],
+    "photos": [
+      {
+        "id": "r4-p1",
+        "url": "/images/reports/report-4-forum-hall.jpg",
+        "titleUa": "Зала Віденського бізнес-форуму",
+        "titleDe": "Plenarsaal des Wiener Wirtschaftsforums",
+        "captionUa": "Урочисте відкриття та виступи спікерів перед представниками ділової спільноти, дипломатами та громадськими лідерами у Відні.",
+        "captionDe": "Feierliche Eröffnung und Fachvorträge vor Vertretern der Wirtschaft, Diplomatie und Zivilgesellschaft in Wien."
+      },
+      {
+        "id": "r4-p2",
+        "url": "/images/reports/report-4-poster-daria.png",
+        "titleUa": "Next level: Women in business — Дар'я Дідковська",
+        "titleDe": "Next Level: Women in Business — Daria Didkovska",
+        "captionUa": "Офіційний постер форуму: спікер Дар'я Дідковська, бізнес-ментор та засновниця Ukrainian-European Business Hub.",
+        "captionDe": "Offizielles Konferenzposter: Referentin Daria Didkovska, Wirtschaftsmentorin und Gründerin des Ukrainian-European Business Hub."
+      },
+      {
+        "id": "r4-p3",
+        "url": "/images/reports/report-4-stage-screen.png",
+        "titleUa": "Виступ на Vienna Grand Forum 2026",
+        "titleDe": "Vortrag auf der Hauptbühne des Vienna Grand Forum",
+        "captionUa": "Презентація інноваційних можливостей для українського бізнесу в Європі на великому екрані головної сцени форуму.",
+        "captionDe": "Präsentation zukunftsweisender Perspektiven für ukrainische Unternehmungen auf der Großleinwand der Hauptbühne."
+      },
+      {
+        "id": "r4-p4",
+        "url": "/images/reports/report-4-redcarpet-woman.png",
+        "titleUa": "На червоній доріжці Vienna Grand Forum",
+        "titleDe": "Am roten Teppich des Vienna Grand Forum 2026",
+        "captionUa": "Засновник Михайло Косік з учасницею форуму біля бренд-волу Vienna Grand Forum: розвиток гуманітарних та ділових контактів.",
+        "captionDe": "Stiftungsvorsitzender Mykhailo Kosik mit einer Konferenzteilnehmerin an der Fotowand des Vienna Grand Forum."
+      },
+      {
+        "id": "r4-p5",
+        "url": "/images/reports/report-4-redcarpet-man.jpg",
+        "titleUa": "Ділові контакти та взаємодія лідерів",
+        "titleDe": "Führungskräfte-Dialog und Netzwerkaustausch",
+        "captionUa": "Михайло Косік та представники міжнародного бізнес-середовища на форумі у Відні.",
+        "captionDe": "Mykhailo Kosik im Fachgespräch mit Partnern aus der europäischen Wirtschaft."
+      },
+      {
+        "id": "r4-p6",
+        "url": "/images/reports/report-4-kosik-guest.png",
+        "titleUa": "Зустріч учасників форуму та обмін думками",
+        "titleDe": "Persönlicher Austausch auf der Konferenz",
+        "captionUa": "Обговорення благодійних та культурних програм з учасниками заходу у кулуарах форуму.",
+        "captionDe": "Gespräche über karitative Förderprogramme mit Forumsgästen im festlichen Foyer."
+      },
+      {
+        "id": "r4-p7",
+        "url": "/images/reports/report-4-atrium-selfie.jpg",
+        "titleUa": "Тепла атмосфера однодумців у пальмовому атріумі",
+        "titleDe": "Herzliche Atmosphäre im Palmen-Atrium",
+        "captionUa": "Михайло Косік з колегами та підприємцями у просторому атріумі конференц-центру у Відні.",
+        "captionDe": "Mykhailo Kosik im freundschaftlichen Austausch mit Unternehmern im sonnigen Atrium des Konferenzzentrums."
+      },
+      {
+        "id": "r4-p8",
+        "url": "/images/reports/report-4-rollup-banner.png",
+        "titleUa": "Ukrainian European Business Hub — Світова спільнота сильних",
+        "titleDe": "Ukrainian European Business Hub Stand",
+        "captionUa": "Засновник організації біля офіційного рол-ап банера міжнародного хабу ділового співробітництва.",
+        "captionDe": "Der Stiftungsvorsitzende am Informationsstand des internationalen Kooperationsnetzwerks."
+      },
+      {
+        "id": "r4-p9",
+        "url": "/images/reports/report-4-stage-qr.png",
+        "titleUa": "Презентація інноваційних сервісів та контактів",
+        "titleDe": "Präsentation von Serviceplattformen auf der Bühne",
+        "captionUa": "Демонстрація платформ співпраці та інтерактивних можливостей для учасників бізнес-форуму.",
+        "captionDe": "Vorstellung digitaler Kooperationsplattformen und Vernetzungsmöglichkeiten für die Konferenzteilnehmer."
+      }
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "proj-1",
+    "titleDe": "Tätigkeitsbericht № 1: Erstes Jahr der Organisation «Hoffnung & Würde»",
+    "titleUa": "Звіт № 1: Перший рік діяльності організації «Надія та Гідність»",
+    "categoryDe": "Jahresbericht & Kinderkultur",
+    "categoryUa": "Річний звіт та дитяча культура",
+    "location": "Wien · Österreich",
+    "date": "2024–2025",
+    "image": "/images/reports/report-1-team.jpg",
+    "descriptionDe": "Erfolge unseres ersten Jahres: Kinderkonzerte mit dem Ensemble «Sonjashnyk», Förderung ukrainischer Musiktalente, Bandura-Aufführungen und vertrauensvolle Zusammenarbeit.",
+    "descriptionUa": "Підсумки нашого першого року: дитячі концерти колективу «Соняшник», підтримка юних українських талантів, виступи бандуристів та співпраця.",
+    "reportStats": [
+      {
+        "labelDe": "Tätigkeitsjahr",
+        "labelUa": "Рік діяльності",
+        "value": "1-й"
+      },
+      {
+        "labelDe": "Kultur & Kinder",
+        "labelUa": "Культура й діти",
+        "value": "Концерти"
+      },
+      {
+        "labelDe": "Verifizierter Bericht",
+        "labelUa": "Офіційний звіт",
+        "value": "100%"
+      }
+    ],
+    "completed": true
+  },
+  {
+    "id": "proj-2",
+    "titleDe": "Tätigkeitsbericht № 2: Kooperationsmemorandum mit «Ukrainki»",
+    "titleUa": "Звіт № 2: Меморандум про співпрацю з міжнародною спільнотою «Українки»",
+    "categoryDe": "Internationale Partnerschaft",
+    "categoryUa": "Міжнародне партнерство",
+    "location": "Hilton Wien",
+    "date": "2025–2026",
+    "image": "/images/reports/report-2-standing-docs.jpg",
+    "descriptionDe": "Unterzeichnung des Kooperationsmemorandums im Hotel Hilton Wien während des Wirtschaftsforums für humanitäre, soziale und kulturelle Projekte.",
+    "descriptionUa": "Підписання меморандуму про співпрацю у готелі Hilton у Відні під час Віденського бізнес-форуму: гуманітарні, соціальні та культурні проекти.",
+    "reportStats": [
+      {
+        "labelDe": "Partnerorganisationen",
+        "labelUa": "Організації",
+        "value": "2"
+      },
+      {
+        "labelDe": "Kernbereiche",
+        "labelUa": "Напрями допомоги",
+        "value": "4"
+      },
+      {
+        "labelDe": "Strategischer Status",
+        "labelUa": "Статус",
+        "value": "Підписано"
+      }
+    ],
+    "completed": true
+  },
+  {
+    "id": "proj-3",
+    "titleDe": "Tätigkeitsbericht № 3: Dialog mit dem österreichischen Parlament",
+    "titleUa": "Звіт № 3: Співпраця з австрійським парламентом заради України",
+    "categoryDe": "Parlamentarischer Dialog",
+    "categoryUa": "Парламентський діалог",
+    "location": "Parlament Wien",
+    "date": "2025–2026",
+    "image": "/images/reports/report-3-terrace-quadriga.png",
+    "descriptionDe": "Offizielle Treffen mit Abgeordneten des österreichischen Nationalrats im Hohen Haus zur Stärkung der humanitären Solidarität mit der Ukraine.",
+    "descriptionUa": "Офіційні зустрічі з австрійськими парламентарями у стінах Парламенту у Відні задля підтримки українського народу та європейського майбутнього.",
+    "reportStats": [
+      {
+        "labelDe": "Hohes Haus Wien",
+        "labelUa": "Парламент Австрії",
+        "value": "Wien"
+      },
+      {
+        "labelDe": "Bilateraler Dialog",
+        "labelUa": "Діалог",
+        "value": "Гуманітарний"
+      },
+      {
+        "labelDe": "Solidarität",
+        "labelUa": "Солідарність",
+        "value": "Широка"
+      }
+    ],
+    "completed": true
+  },
+  {
+    "id": "proj-4",
+    "titleDe": "Tätigkeitsbericht № 4: Teilnahme an den Wirtschaftsforen in Wien",
+    "titleUa": "Звіт № 4: Участь у Віденських бізнес-форумах та нетворкінг",
+    "categoryDe": "Wirtschaft & Vernetzung",
+    "categoryUa": "Бізнес та нетворкінг",
+    "location": "Wien · Österreich",
+    "date": "2026",
+    "image": "/images/reports/report-4-forum-hall.jpg",
+    "descriptionDe": "Mitwirkung am Vienna Grand Forum und Ukrainian-European Business Hub: Ausbau von Kontakten zu ukrainischen Unternehmern in Europa und Partnerschaften.",
+    "descriptionUa": "Участь у Vienna Grand Forum та Ukrainian-European Business Hub: розвиток партнерств з українськими підприємцями в Європі та спільні проекти.",
+    "reportStats": [
+      {
+        "labelDe": "Wirtschaftsforen",
+        "labelUa": "Форуми",
+        "value": "Wien"
+      },
+      {
+        "labelDe": "Netzwerk",
+        "labelUa": "Нетворкінг",
+        "value": "Європейський"
+      },
+      {
+        "labelDe": "Partnerschaft",
+        "labelUa": "Партнерство",
+        "value": "100%"
+      }
+    ],
+    "completed": true
+  }
+]

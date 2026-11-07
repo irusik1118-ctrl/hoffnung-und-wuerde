@@ -1,0 +1,54 @@
+[
+  {
+    "id": "part-1",
+    "name": "Міжнародна спільнота «Українки» / Int. Community «Ukrainians»",
+    "roleDe": "Strategischer Partner: Humanitäre, soziale und kulturelle Projekte (Offizielles Kooperationsmemorandum)",
+    "roleUa": "Стратегічний партнер: Гуманітарні, соціальні та культурні проекти (Офіційний підписаний Меморандум)",
+    "typeDe": "Internationale Frauen- & Hilfsgemeinschaft",
+    "typeUa": "Міжнародна жіноча та волонтерська спільнота",
+    "logoPlaceholder": "🇺🇦 UKR",
+    "url": "https://www.facebook.com/share/g/19brcUFnCC/",
+    "bannerImage": "/images/partners/ukrainki-banner.png",
+    "qrCode": "/images/partners/ukrainki-fb-qr.svg"
+  },
+  {
+    "id": "part-2",
+    "name": "Творчий колектив «Соняшник» (кер. Алла Горбунова)",
+    "roleDe": "Kulturpartner: Kinderkonzerte, Bandura-Ensemble und Talentförderung in Wien",
+    "roleUa": "Культурний партнер: дитячі концерти, ансамбль бандуристів та розвиток талантів у Відні",
+    "typeDe": "Kulturelles Ensemble",
+    "typeUa": "Мистецький колектив",
+    "logoPlaceholder": "🌻 SON",
+    "bannerImage": "/images/reports/report-1-bandura-ensemble.jpg"
+  },
+  {
+    "id": "part-3",
+    "name": "Ukrainian-European Business Hub & Vienna Grand Forum",
+    "roleDe": "Wirtschafts- und Vernetzungspartner für internationale Kooperation und Foren in Wien",
+    "roleUa": "Партнер економічної взаємодії та нетворкінгу бізнес-форумів у Відні",
+    "typeDe": "Business Hub",
+    "typeUa": "Бізнес-хаб",
+    "logoPlaceholder": "🌐 UEB",
+    "bannerImage": "/images/reports/report-4-forum-hall.jpg"
+  },
+  {
+    "id": "part-4",
+    "name": "Міжнародна благодійна організація «ДОР'Я» (Brody / Wien)",
+    "roleDe": "Humanitärer Partner für Waisenkinder, Kleidersammlungen und Kinderheime",
+    "roleUa": "Гуманітарний партнер підтримки дітей-сиріт, збору речей та дитячих будинків",
+    "typeDe": "Wohltätige Organisation",
+    "typeUa": "Благодійна організація",
+    "logoPlaceholder": "🏠 DOR",
+    "bannerImage": "/images/events/help-children-dorya-ua.jpg"
+  },
+  {
+    "id": "part-5",
+    "name": "Österreichisches Parlament & Dialogpartner",
+    "roleDe": "Konstruktiver bilateraler Austausch zu humanitären und gesellschaftlichen Fragen",
+    "roleUa": "Конструктивний двосторонній діалог щодо гуманітарних та суспільних питань",
+    "typeDe": "Parlamentarischer Partner",
+    "typeUa": "Парламентський діалог",
+    "logoPlaceholder": "🏛️ AUT",
+    "bannerImage": "/images/reports/report-3-terrace-vienna.jpg"
+  }
+]

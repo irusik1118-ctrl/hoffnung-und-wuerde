@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gold",
+    "nameDe": "Goldene Förderer & Mäzene",
+    "nameUa": "Золоті меценати та генеральні благодійники",
+    "badgeColor": "#D4AF37",
+    "sponsors": [
+      {
+        "name": "Wiener Traditionsunternehmen & Freunde der Stiftung",
+        "noteDe": "Förderung der Grundausstattung & Kinderbildung",
+        "noteUa": "Фінансування дитячих освітніх та культурних програм"
+      },
+      {
+        "name": "Private Mäzenaten-Gemeinschaft Österreich",
+        "noteDe": "Unterstützung des Senioren- und Jugendfonds",
+        "noteUa": "Підтримка фонду допомоги дітям та літнім людям"
+      }
+    ]
+  },
+  {
+    "id": "silver",
+    "nameDe": "Silberne Partner & Unterstützer",
+    "nameUa": "Срібні партнери та друзі організації",
+    "badgeColor": "#E0E0E0",
+    "sponsors": [
+      {
+        "name": "Logistik & Transport Wien",
+        "noteDe": "Kostenlose Hilfsgütertransporte",
+        "noteUa": "Безоплатне перевезення гуманітарних вантажів"
+      },
+      {
+        "name": "Druck- & Mediengruppe Österreich",
+        "noteDe": "Unterstützung von Infomaterialien & Berichten",
+        "noteUa": "Друк звітів та інформаційних матеріалів"
+      }
+    ]
+  }
+]

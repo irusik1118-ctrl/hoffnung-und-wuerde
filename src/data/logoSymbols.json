@@ -1,0 +1,42 @@
+[
+  {
+    "icon": "🔥",
+    "titleDe": "Der Phönix",
+    "titleUa": "Фенікс",
+    "descDe": "Zentrales Symbol des Logos. Er verkörpert Wiedergeburt, Hoffnung, Kraft und einen Neuanfang. Der Phönix, der aus dem Feuer aufsteigt, symbolisiert die Fähigkeit, schwere Prüfungen zu überwinden und ein neues Leben zu beginnen.",
+    "descUa": "Центральний символ логотипу. Він уособлює відродження, надію, силу та новий початок. Фенікс, який повстає з вогню, символізує здатність долати важкі випробування та починати нове життя.",
+    "color": "#FF5E36"
+  },
+  {
+    "icon": "🪽",
+    "titleDe": "Rote und weiße Flügel",
+    "titleUa": "Червоні та білі крила",
+    "descDe": "Symbol für Schutz, Freiheit, Menschenwürde und das Streben nach einer besseren Zukunft. Die Flügel tragen auch die Idee der Unterstützung für Menschen, die Hilfe benötigen (in den österreichischen Nationalfarben).",
+    "descUa": "Символ захисту, свободи, людської гідності та прагнення до кращого майбутнього. Крила також передають ідею підтримки людей, які потребують допомоги (в кольорах Австрії).",
+    "color": "#ED2939"
+  },
+  {
+    "icon": "🌿",
+    "titleDe": "Goldene Zweige",
+    "titleUa": "Золоті гілки",
+    "descDe": "Symbol für Frieden, Einheit, Wohlstand und Entwicklung. Das Gold unterstreicht den unschätzbaren Wert des menschlichen Lebens, guter Taten und der Hilfe für Nächste.",
+    "descUa": "Символ миру, єдності, добробуту та розвитку. Золото підкреслює цінність людського життя, добрих справ і допомоги іншим.",
+    "color": "#D4AF37"
+  },
+  {
+    "icon": "❤️",
+    "titleDe": "Burgunderroter Hintergrund",
+    "titleUa": "Бордовий фон",
+    "descDe": "Farbe der Stärke, Entschlossenheit, Würde und des Mitgefühls. Er schafft ein tiefes Gefühl von Ernsthaftigkeit, Stabilität und Vertrauen in die wohltätige Arbeit.",
+    "descUa": "Колір сили, рішучості, гідності та небайдужості. Він створює відчуття серйозності й довіри до благодійної діяльності.",
+    "color": "#6B1120"
+  },
+  {
+    "icon": "☀️",
+    "titleDe": "Goldene Farbe",
+    "titleUa": "Золотий колір",
+    "descDe": "Symbolisiert Licht, Zuversicht, Wärme und den unerschütterlichen Glauben an eine hoffnungsvolle Zukunft.",
+    "descUa": "Символізує світло, надію та віру в майбутнє.",
+    "color": "#F3DC84"
+  }
+]

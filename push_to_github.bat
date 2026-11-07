@@ -2,18 +2,20 @@
 chcp 65001 >nul
 cd /d "C:\Users\User\.gemini\antigravity-ide\scratch\hoffnung-und-stolz"
 echo ========================================================
-echo   Отправка сайта Hoffnung & Würde на GitHub...
+echo   Сохранение и отправка сайта Hoffnung & Würde на GitHub...
 echo ========================================================
 echo.
-"C:\Program Files\Git\cmd\git.exe" push -u origin main
+"C:\Program Files\Git\cmd\git.exe" add .
+"C:\Program Files\Git\cmd\git.exe" commit -m "Update site: add assets, data files and start script"
+"C:\Program Files\Git\cmd\git.exe" push origin main
 echo.
 if %errorlevel% equ 0 (
     echo ========================================================
-    echo   [УСПЕХ] Проект успешно отправлен на GitHub!
+    echo   [УСПЕХ] Все изменения успешно сохранены и отправлены на GitHub!
     echo ========================================================
 ) else (
     echo ========================================================
-    echo   [ОШИБКА] Проверьте вход в аккаунт GitHub в браузере.
+    echo   [ИНФОРМАЦИЯ] Проверьте вход в GitHub или статус подключения.
     echo ========================================================
 )
 echo.
