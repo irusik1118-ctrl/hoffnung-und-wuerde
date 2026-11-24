@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react';
 import { Language } from '@/types';
-import { initialSponsors, siteMeta } from '@/data/content';
-import { Gem, HeartHandshake, CreditCard, Landmark, Check, Copy, Shield, Sparkles } from 'lucide-react';
+import { initialProjects, initialSponsors } from '@/data/content';
+import { Gem, HeartHandshake, Landmark, Check, Copy, Shield } from 'lucide-react';
 
 interface SponsorsSectionProps {
   lang: Language;
@@ -14,8 +14,40 @@ export const SponsorsSection: React.FC<SponsorsSectionProps> = ({ lang }) => {
   const [customAmount, setCustomAmount] = useState<string>('');
   const [donationFrequency, setDonationFrequency] = useState<'once' | 'monthly'>('once');
   const [copiedField, setCopiedField] = useState<string | null>(null);
+  const [loadingArea, setLoadingArea] = useState<string | null>(null);
+  const [checkoutError, setCheckoutError] = useState<string | null>(null);
 
   const amounts = [20, 50, 100, 250];
+
+  const startCheckout = async (areaId: string) => {
+    const amount = Number(customAmount || selectedAmount);
+    if (!Number.isSafeInteger(amount) || amount < 5 || amount > 5000) {
+      setCheckoutError(lang === 'ua'
+        ? 'Вкажіть суму від €5 до €5000 цілим числом.'
+        : 'Bitte geben Sie einen ganzzahligen Betrag zwischen 5 € und 5000 € ein.');
+      return;
+    }
+
+    setCheckoutError(null);
+    setLoadingArea(areaId);
+    try {
+      const response = await fetch('/api/stripe/checkout', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ areaId, amount, frequency: donationFrequency }),
+      });
+      const result = await response.json();
+      if (!response.ok || typeof result.url !== 'string') {
+        throw new Error(result.error || (lang === 'ua' ? 'Не вдалося розпочати оплату.' : 'Checkout konnte nicht gestartet werden.'));
+      }
+      window.location.assign(result.url);
+    } catch (error) {
+      setCheckoutError(error instanceof Error
+        ? error.message
+        : (lang === 'ua' ? 'Сталася помилка. Спробуйте ще раз.' : 'Ein Fehler ist aufgetreten. Bitte erneut versuchen.'));
+      setLoadingArea(null);
+    }
+  };
 
   const copyToClipboard = (text: string, field: string) => {
     navigator.clipboard.writeText(text);
@@ -234,13 +266,33 @@ export const SponsorsSection: React.FC<SponsorsSectionProps> = ({ lang }) => {
                 : `Ihre Spende von €${selectedAmount || 50} ermöglicht Bildungsförderung für Kinder oder direkte Lebensmittelversorgung für einsame Senioren in Wien.`}
             </div>
 
-            <button
-              onClick={() => alert(lang === 'ua' ? 'Дякуємо! Будь ласка, скористайтеся офіційними банківськими реквізитами поруч або зв\'яжіться з фондом.' : 'Vielen Dank! Bitte nutzen Sie die offiziellen Bankdaten rechts für die Überweisung.')}
-              className="btn-gold"
-              style={{ width: '100%', padding: '12px' }}
-            >
-              <span>{lang === 'ua' ? `Підтримати фонд на €${selectedAmount || 50}` : `Jetzt €${selectedAmount || 50} spenden`}</span>
-            </button>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+              {initialProjects.map((project) => (
+                <div key={project.id}>
+                  <p style={{ color: '#FFFFFF', fontSize: '0.88rem', margin: '0 0 6px' }}>
+                    {lang === 'ua' ? project.titleUa : project.titleDe}
+                  </p>
+                  <button
+                    type="button"
+                    onClick={() => startCheckout(project.id)}
+                    disabled={loadingArea !== null}
+                    className="btn-gold"
+                    style={{ width: '100%', padding: '12px', opacity: loadingArea && loadingArea !== project.id ? 0.65 : 1 }}
+                  >
+                    <span aria-live="polite">
+                      {loadingArea === project.id
+                        ? (lang === 'ua' ? 'Завантаження…' : 'Wird geladen…')
+                        : (lang === 'ua' ? 'Пожертвувати' : 'Jetzt spenden')}
+                    </span>
+                  </button>
+                </div>
+              ))}
+            </div>
+            {checkoutError && (
+              <p role="alert" style={{ color: '#ffd2cc', fontSize: '0.88rem', marginTop: '12px' }}>
+                {checkoutError}
+              </p>
+            )}
           </div>
 
           {/* Right: Austrian Official Bank Account Details */}
