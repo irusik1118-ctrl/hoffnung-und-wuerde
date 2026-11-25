@@ -54,10 +54,20 @@ export async function POST(request: NextRequest) {
     const stripe = getStripeClient();
     const title = lang === 'ua' ? project.titleUa : project.titleDe;
     const description = lang === 'ua' ? project.descriptionUa : project.descriptionDe;
+    const donationName = frequency === 'monthly'
+      ? (lang === 'ua' ? `Щомісячна пожертва: ${title}` : `Monatliche Spende: ${title}`)
+      : (lang === 'ua' ? `Разова пожертва: ${title}` : `Einmalige Spende: ${title}`);
+    const metadata = {
+      projectId: project.id,
+      frequency,
+      paymentType: frequency === 'monthly' ? 'recurring' : 'one_time',
+      language: lang,
+    };
     const baseUrl = request.nextUrl.origin;
 
     const session = await stripe.checkout.sessions.create({
       mode: frequency === 'monthly' ? 'subscription' : 'payment',
+      locale: lang === 'de' ? 'de' : 'auto',
       line_items: [
         {
           quantity: 1,
@@ -65,14 +75,15 @@ export async function POST(request: NextRequest) {
             currency: 'eur',
             unit_amount: amountInCents,
             product_data: {
-              name: lang === 'ua' ? `Пожертва: ${title}` : `Spende: ${title}`,
+              name: donationName,
               description: description.slice(0, 450),
             },
             ...(frequency === 'monthly' ? { recurring: { interval: 'month' as const } } : {}),
           },
         },
       ],
-      metadata: { projectId: project.id, frequency, language: lang },
+      metadata,
+      ...(frequency === 'monthly' ? { subscription_data: { metadata } } : {}),
       success_url: `${baseUrl}/thank-you?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${baseUrl}/?donation=cancelled#sponsors`,
     });
