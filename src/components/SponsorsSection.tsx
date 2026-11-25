@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react';
 import { Language } from '@/types';
-import { initialSponsors, siteMeta } from '@/data/content';
-import { Gem, HeartHandshake, CreditCard, Landmark, Check, Copy, Shield, Sparkles } from 'lucide-react';
+import { initialProjects, initialSponsors } from '@/data/content';
+import { Gem, HeartHandshake, Landmark, Check, Copy, Shield } from 'lucide-react';
 
 interface SponsorsSectionProps {
   lang: Language;
@@ -12,10 +12,38 @@ interface SponsorsSectionProps {
 export const SponsorsSection: React.FC<SponsorsSectionProps> = ({ lang }) => {
   const [selectedAmount, setSelectedAmount] = useState<number>(50);
   const [customAmount, setCustomAmount] = useState<string>('');
+  const [selectedProjectId, setSelectedProjectId] = useState(initialProjects[0]?.id ?? '');
   const [donationFrequency, setDonationFrequency] = useState<'once' | 'monthly'>('once');
   const [copiedField, setCopiedField] = useState<string | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [checkoutError, setCheckoutError] = useState('');
 
   const amounts = [20, 50, 100, 250];
+  const selectedProject = initialProjects.find((project) => project.id === selectedProjectId);
+
+  const startCheckout = async () => {
+    const amount = customAmount || String(selectedAmount);
+    setIsSubmitting(true);
+    setCheckoutError('');
+
+    try {
+      const response = await fetch('/api/checkout', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ amount, projectId: selectedProjectId, frequency: donationFrequency, lang }),
+      });
+      const result = await response.json();
+
+      if (!response.ok || typeof result.url !== 'string') {
+        throw new Error(typeof result.error === 'string' ? result.error : 'Could not start secure Checkout.');
+      }
+
+      window.location.assign(result.url);
+    } catch (error) {
+      setCheckoutError(error instanceof Error ? error.message : 'Could not start secure Checkout.');
+      setIsSubmitting(false);
+    }
+  };
 
   const copyToClipboard = (text: string, field: string) => {
     navigator.clipboard.writeText(text);
@@ -166,6 +194,29 @@ export const SponsorsSection: React.FC<SponsorsSectionProps> = ({ lang }) => {
               </button>
             </div>
 
+            <div style={{ marginBottom: '18px' }}>
+              <label htmlFor="donation-project" style={{ display: 'block', color: 'var(--color-gold-400)', fontSize: '0.84rem', fontWeight: 600, marginBottom: 7 }}>
+                {lang === 'ua' ? 'Напрямок пожертви' : 'Spendenzweck'}
+              </label>
+              <select
+                id="donation-project"
+                value={selectedProjectId}
+                onChange={(event) => setSelectedProjectId(event.target.value)}
+                style={{ width: '100%', padding: '11px 12px', borderRadius: 8, background: 'rgba(20, 2, 5, 0.9)', border: '1px solid rgba(212, 175, 55, 0.4)', color: '#FFFFFF', fontSize: '0.92rem' }}
+              >
+                {initialProjects.map((project) => (
+                  <option key={project.id} value={project.id} style={{ background: '#240409' }}>
+                    {lang === 'ua' ? project.titleUa : project.titleDe}
+                  </option>
+                ))}
+              </select>
+              {selectedProject && (
+                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.8rem', lineHeight: 1.5, marginTop: 7 }}>
+                  {lang === 'ua' ? selectedProject.descriptionUa : selectedProject.descriptionDe}
+                </p>
+              )}
+            </div>
+
             {/* Amount Pills */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px', marginBottom: '16px' }}>
               {amounts.map((amt) => (
@@ -201,6 +252,11 @@ export const SponsorsSection: React.FC<SponsorsSectionProps> = ({ lang }) => {
             <div style={{ marginBottom: '20px' }}>
               <input
                 type="number"
+                min="1"
+                max="10000"
+                step="0.01"
+                inputMode="decimal"
+                aria-label={lang === 'ua' ? 'Сума пожертви в євро' : 'Spendenbetrag in Euro'}
                 value={customAmount}
                 onChange={(e) => {
                   setCustomAmount(e.target.value);
@@ -229,17 +285,30 @@ export const SponsorsSection: React.FC<SponsorsSectionProps> = ({ lang }) => {
               color: 'var(--color-gold-300)',
               marginBottom: '20px'
             }}>
-              ✨ {lang === 'ua'
-                ? `Ваш внесок €${selectedAmount || 50} допомагає забезпечити набір творчості та шкільні матеріали для дитини або теплий продуктовий кошик для літньої людини у Відні.`
-                : `Ihre Spende von €${selectedAmount || 50} ermöglicht Bildungsförderung für Kinder oder direkte Lebensmittelversorgung für einsame Senioren in Wien.`}
+              {lang === 'ua'
+                ? `Ваш внесок €${selectedAmount || 50} сприятиме реалізації вибраного проєкту.`
+                : `Ihre Spende von €${selectedAmount || 50} unterstützt das ausgewählte Projekt.`}
             </div>
 
+            {checkoutError && (
+              <p role="alert" style={{ color: '#ffb7b7', fontSize: '0.86rem', marginBottom: 12 }}>
+                {checkoutError}
+              </p>
+            )}
+
             <button
-              onClick={() => alert(lang === 'ua' ? 'Дякуємо! Будь ласка, скористайтеся офіційними банківськими реквізитами поруч або зв\'яжіться з фондом.' : 'Vielen Dank! Bitte nutzen Sie die offiziellen Bankdaten rechts für die Überweisung.')}
+              type="button"
+              onClick={startCheckout}
+              disabled={isSubmitting || !selectedProjectId || !selectedAmount}
+              aria-busy={isSubmitting}
               className="btn-gold"
-              style={{ width: '100%', padding: '12px' }}
+              style={{ width: '100%', padding: '12px', opacity: isSubmitting ? 0.7 : 1 }}
             >
-              <span>{lang === 'ua' ? `Підтримати фонд на €${selectedAmount || 50}` : `Jetzt €${selectedAmount || 50} spenden`}</span>
+              <span>
+                {isSubmitting
+                  ? (lang === 'ua' ? 'Переходимо до захищеної оплати…' : 'Weiter zur sicheren Zahlung…')
+                  : (lang === 'ua' ? `Пожертвувати €${selectedAmount || 50}` : `€${selectedAmount || 50} spenden`)}
+              </span>
             </button>
           </div>
 
