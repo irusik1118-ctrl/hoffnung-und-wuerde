@@ -44,7 +44,7 @@ export async function POST(request: NextRequest) {
 
   const { amount, projectId, frequency, lang } = body as Record<string, unknown>;
   const amountInCents = parseAmountToCents(amount);
-  const project = initialProjects.find((item) => item.id === projectId);
+  const project = initialProjects.find((item) => item.id === projectId && !item.completed);
 
   if (!amountInCents || !project || (frequency !== 'once' && frequency !== 'monthly') || (lang !== 'ua' && lang !== 'de')) {
     return Response.json({ error: 'Check the donation direction and amount (between €1 and €10,000).' }, { status: 400 });

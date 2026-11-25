@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 import { Language } from '@/types';
 import { initialProjects, initialSponsors } from '@/data/content';
+
+const donationProjects = initialProjects.filter((project) => !project.completed);
 import { Gem, HeartHandshake, Landmark, Check, Copy, Shield } from 'lucide-react';
 
 interface SponsorsSectionProps {
@@ -12,14 +14,14 @@ interface SponsorsSectionProps {
 export const SponsorsSection: React.FC<SponsorsSectionProps> = ({ lang }) => {
   const [selectedAmount, setSelectedAmount] = useState<number>(50);
   const [customAmount, setCustomAmount] = useState<string>('');
-  const [selectedProjectId, setSelectedProjectId] = useState(initialProjects[0]?.id ?? '');
+  const [selectedProjectId, setSelectedProjectId] = useState(donationProjects[0]?.id ?? '');
   const [donationFrequency, setDonationFrequency] = useState<'once' | 'monthly'>('once');
   const [copiedField, setCopiedField] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [checkoutError, setCheckoutError] = useState('');
 
   const amounts = [20, 50, 100, 250];
-  const selectedProject = initialProjects.find((project) => project.id === selectedProjectId);
+  const selectedProject = donationProjects.find((project) => project.id === selectedProjectId);
 
   const startCheckout = async () => {
     const amount = customAmount || String(selectedAmount);
@@ -204,7 +206,7 @@ export const SponsorsSection: React.FC<SponsorsSectionProps> = ({ lang }) => {
                 onChange={(event) => setSelectedProjectId(event.target.value)}
                 style={{ width: '100%', padding: '11px 12px', borderRadius: 8, background: 'rgba(20, 2, 5, 0.9)', border: '1px solid rgba(212, 175, 55, 0.4)', color: '#FFFFFF', fontSize: '0.92rem' }}
               >
-                {initialProjects.map((project) => (
+                {donationProjects.map((project) => (
                   <option key={project.id} value={project.id} style={{ background: '#240409' }}>
                     {lang === 'ua' ? project.titleUa : project.titleDe}
                   </option>
